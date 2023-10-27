@@ -5,11 +5,11 @@
         cq:conf="/conf/forms"
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-26T10:30:34.561Z"
+        cq:lastModified="{Date}2023-10-25T16:09:24.642Z"
         cq:lastModifiedBy="alin.costin@brandwidth.com"
-        cq:lastReplicated="{Date}2023-10-18T15:09:38.870Z"
-        cq:lastReplicated_publish="{Date}2023-10-18T15:09:38.870Z"
-        cq:lastReplicated_scene7="{Date}2023-10-18T15:09:38.870Z"
+        cq:lastReplicated="{Date}2023-09-28T15:00:53.965Z"
+        cq:lastReplicated_publish="{Date}2023-09-28T15:00:53.965Z"
+        cq:lastReplicated_scene7="{Date}2023-09-28T15:00:53.965Z"
         cq:lastReplicatedBy="alin.costin@brandwidth.com"
         cq:lastReplicatedBy_publish="alin.costin@brandwidth.com"
         cq:lastReplicatedBy_scene7="alin.costin@brandwidth.com"
@@ -155,18 +155,18 @@
                                         textIsRich="[true,true,true]"/>
                                     <guideradiobutton_cop
                                         fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1858182020##items##panel_183586405_copy##items##guideradiobutton_cop##mandatoryMessage##4225&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1858182020##items##panel_183586405_copy##items##guideradiobutton_cop##jcr:title##9489&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_1858182020##items##panel_183586405_copy##items##guideradiobutton_cop##options##3642&quot;}"
-                                        jcr:lastModified="{Date}2023-10-18T15:02:03.495Z"
-                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:lastModified="{Date}2023-09-21T17:18:30.642+03:00"
+                                        jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Is this inquiry for a Dow Silicones Product?"
                                         sling:resourceType="fd/af/components/guideradiobutton"
                                         alignment="guideFieldHorizontalAlignment"
-                                        bindRef="/formFields/genericFields/sGroup"
+                                        bindRef="/formFields/genericFields/dow_silicons"
                                         guideNodeClass="guideRadioButton"
                                         mandatory="true"
                                         mandatoryMessage="This field is required"
                                         name="radiobutton-dow-silicons"
-                                        options="[TCS=Yes,CIG=No]"
+                                        options="[Yes,No]"
                                         textIsRich="[true,true]"/>
                                 </items>
                             </panel_183586405_copy>

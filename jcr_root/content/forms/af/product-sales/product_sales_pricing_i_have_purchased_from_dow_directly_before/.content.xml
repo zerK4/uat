@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-18T15:57:36.932Z"
-        cq:lastModifiedBy="vpislaru@dow.com"
-        cq:lastReplicated="{Date}2023-10-18T16:04:16.276Z"
-        cq:lastReplicated_publish="{Date}2023-10-18T16:04:16.276Z"
-        cq:lastReplicated_scene7="{Date}2023-10-18T16:04:16.276Z"
-        cq:lastReplicatedBy="vpislaru@dow.com"
-        cq:lastReplicatedBy_publish="vpislaru@dow.com"
-        cq:lastReplicatedBy_scene7="vpislaru@dow.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
+        cq:lastModified="{Date}2023-09-27T13:44:58.367+01:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/forms/settings/wcm/templates/mock-template"
-        jcr:isCheckedOut="{Boolean}true"
         jcr:language="en"
-        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Product Sales - Pricing - I have purchased from Dow directly before"
-        jcr:uuid="315a1d3b-8fc5-4bfc-9caf-ea4da6b8c44b"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"
@@ -156,12 +143,12 @@
                         name="formTitle"
                         textIsRich="true"/>
                     <panel
-                        jcr:lastModified="{Date}2023-10-18T15:57:36.909Z"
-                        jcr:lastModifiedBy="vpislaru@dow.com"
+                        jcr:lastModified="{Date}2023-08-18T20:56:28.320+03:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Section"
                         sling:resourceType="fd/af/components/panel"
-                        fragRef="/content/dam/formsanddocuments/fragments/panel_personal_info"
+                        fragRef="/content/dam/formsanddocuments/fragments/Panel-Personal-Info"
                         guideNodeClass="guidePanel"
                         name="panel1692115682611"
                         textIsRich="true"
@@ -185,12 +172,12 @@
                         options="[Email,Phone Number]"
                         textIsRich="[true,true]"/>
                     <panel_529823628
-                        jcr:lastModified="{Date}2023-10-18T15:57:23.952Z"
-                        jcr:lastModifiedBy="vpislaru@dow.com"
+                        jcr:lastModified="{Date}2023-08-18T20:56:39.435+03:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Section"
                         sling:resourceType="fd/af/components/panel"
-                        fragRef="/content/dam/formsanddocuments/fragments/panel_company_info"
+                        fragRef="/content/dam/formsanddocuments/fragments/panel_Company-Info"
                         guideNodeClass="guidePanel"
                         name="panel_5298236281692115698988"
                         textIsRich="true"
@@ -224,12 +211,12 @@
                         <items jcr:primaryType="nt:unstructured"/>
                     </panel_245963411_copy>
                     <panel_213927824
-                        jcr:lastModified="{Date}2023-10-18T15:57:06.372Z"
-                        jcr:lastModifiedBy="vpislaru@dow.com"
+                        jcr:lastModified="{Date}2023-08-18T20:56:49.325+03:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Section"
                         sling:resourceType="fd/af/components/panel"
-                        fragRef="/content/dam/formsanddocuments/fragments/panel_attach_doc"
+                        fragRef="/content/dam/formsanddocuments/fragments/panel_Attach-Doc"
                         guideNodeClass="guidePanel"
                         name="panel_2139278241692115742991"
                         textIsRich="true"

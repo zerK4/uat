@@ -5,18 +5,15 @@
         cq:conf="/conf/forms"
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-26T10:30:34.667Z"
+        cq:lastModified="{Date}2023-10-25T16:09:45.654Z"
         cq:lastModifiedBy="alin.costin@brandwidth.com"
-        cq:lastReplicated="{Date}2023-10-16T10:06:23.670Z"
-        cq:lastReplicated_preview="{Date}2023-10-13T14:49:10.794Z"
-        cq:lastReplicated_publish="{Date}2023-10-16T10:06:23.670Z"
-        cq:lastReplicated_scene7="{Date}2023-10-16T10:06:23.670Z"
+        cq:lastReplicated="{Date}2023-10-16T14:22:46.926Z"
+        cq:lastReplicated_publish="{Date}2023-10-16T14:22:46.926Z"
+        cq:lastReplicated_scene7="{Date}2023-10-16T14:22:46.926Z"
         cq:lastReplicatedBy="alin.costin@brandwidth.com"
-        cq:lastReplicatedBy_preview="alin.costin@brandwidth.com"
         cq:lastReplicatedBy_publish="alin.costin@brandwidth.com"
         cq:lastReplicatedBy_scene7="alin.costin@brandwidth.com"
         cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_preview="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:lastReplicationAction_scene7="Activate"
         cq:template="/conf/forms/settings/wcm/templates/mock-template"
@@ -29,21 +26,10 @@
         jcr:uuid="27e7e3cc-b09d-4f1b-b58f-f0e590d217db"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
-            cq:isDelivered="{Boolean}true"
-            cq:lastReplicated="{Date}2023-10-13T20:35:19.188Z"
-            cq:lastReplicated_publish="{Date}2023-10-13T20:35:19.188Z"
-            cq:lastReplicated_scene7="{Date}2023-10-13T20:35:19.188Z"
-            cq:lastReplicatedBy="r.d.vantol@dow.com"
-            cq:lastReplicatedBy_publish="r.d.vantol@dow.com"
-            cq:lastReplicatedBy_scene7="r.d.vantol@dow.com"
-            cq:lastReplicationAction="Activate"
-            cq:lastReplicationAction_publish="Activate"
-            cq:lastReplicationAction_scene7="Activate"
             fd:translationIds="\{&quot;thankYouMessage&quot;:&quot;guideContainer##thankYouMessage##6153&quot;}"
             fd:version="1.1"
-            jcr:lastModified="{Date}2023-10-13T14:27:31.563Z"
+            jcr:lastModified="{Date}2023-09-04T12:54:08.134Z"
             jcr:lastModifiedBy="alin.costin@brandwidth.com"
-            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="fd/af/components/guideContainer"
             _invokeSubmitActionSync="true"
@@ -69,34 +55,12 @@
             themeRef="/content/dam/formsanddocuments-themes/dow-theme"
             useExistingAF="false">
             <layout
-                cq:isDelivered="{Boolean}true"
-                cq:lastReplicated="{Date}2023-10-13T20:35:24.420Z"
-                cq:lastReplicated_publish="{Date}2023-10-13T20:35:24.420Z"
-                cq:lastReplicated_scene7="{Date}2023-10-13T20:35:24.420Z"
-                cq:lastReplicatedBy="r.d.vantol@dow.com"
-                cq:lastReplicatedBy_publish="r.d.vantol@dow.com"
-                cq:lastReplicatedBy_scene7="r.d.vantol@dow.com"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                cq:lastReplicationAction_scene7="Activate"
-                jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="fd/af/layouts/defaultGuideLayout"
-                mobileLayout="dow-platform/clientlibs/clientlibs-forms/theme-base-clientlibs/mobile-layout"
+                mobileLayout="fd/af/layouts/mobile/step"
                 toolbarPosition="Bottom"/>
             <rootPanel
-                cq:isDelivered="{Boolean}true"
-                cq:lastReplicated="{Date}2023-10-13T20:35:27.269Z"
-                cq:lastReplicated_publish="{Date}2023-10-13T20:35:27.269Z"
-                cq:lastReplicated_scene7="{Date}2023-10-13T20:35:27.269Z"
-                cq:lastReplicatedBy="r.d.vantol@dow.com"
-                cq:lastReplicatedBy_publish="r.d.vantol@dow.com"
-                cq:lastReplicatedBy_scene7="r.d.vantol@dow.com"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                cq:lastReplicationAction_scene7="Activate"
                 fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##jcr:title##9950&quot;}"
-                jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Root Panel"
                 sling:resourceType="fd/af/components/rootPanel"
@@ -106,17 +70,6 @@
                 name="guideRootPanel"
                 panelSetType="Navigable">
                 <layout
-                    cq:isDelivered="{Boolean}true"
-                    cq:lastReplicated="{Date}2023-10-13T20:35:30.522Z"
-                    cq:lastReplicated_publish="{Date}2023-10-13T20:35:30.522Z"
-                    cq:lastReplicated_scene7="{Date}2023-10-13T20:35:30.522Z"
-                    cq:lastReplicatedBy="r.d.vantol@dow.com"
-                    cq:lastReplicatedBy_publish="r.d.vantol@dow.com"
-                    cq:lastReplicatedBy_scene7="r.d.vantol@dow.com"
-                    cq:lastReplicationAction="Activate"
-                    cq:lastReplicationAction_publish="Activate"
-                    cq:lastReplicationAction_scene7="Activate"
-                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout2"
                     nonNavigable="{Boolean}true"
@@ -144,30 +97,16 @@
                         <items
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="fd/af/layouts/gridFluidLayout2">
-                            <panel1697031950819
+                            <guidetextdraw_copy
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##guidetextdraw_copy##_value##8908&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T13:11:03.107+03:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Section"
-                                sling:resourceType="fd/af/components/panel"
-                                guideNodeClass="guidePanel"
-                                name="panel1697031950819">
-                                <layout
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
-                                    nonNavigable="{Boolean}true"
-                                    toolbarPosition="Bottom"/>
-                                <items jcr:primaryType="nt:unstructured">
-                                    <guidetextdraw_copy
-                                        fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##guidetextdraw_copy##_value##8908&quot;}"
-                                        jcr:lastModified="{Date}2023-09-01T13:11:03.107+03:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="fd/af/components/guidetextdraw"
-                                        _value="&lt;p>All fields are mandatory unless marked (optional)&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                                        guideNodeClass="guideTextDraw"
-                                        name="textdraw-all-fields"
-                                        textIsRich="true"/>
-                                </items>
-                            </panel1697031950819>
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>All fields are mandatory unless marked (optional)&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw-all-fields"
+                                textIsRich="true"/>
                             <afformtitle_18032309
                                 fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##afformtitle_18032309##_value##6957&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##afformtitle_18032309##jcr:title##4054&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T13:11:53.735+03:00"
@@ -378,7 +317,7 @@
                             </panel_1075981341>
                             <guidebutton
                                 fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##guidebutton##jcr:title##5315&quot;}"
-                                jcr:lastModified="{Date}2023-09-01T09:52:15.000Z"
+                                jcr:lastModified="{Date}2023-09-01T12:52:15.024+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="SUBMIT INQUIRY"
@@ -439,36 +378,6 @@
                             toolbarPosition="Bottom"/>
                         <items jcr:primaryType="nt:unstructured"/>
                     </panel_328308487>
-                    <guidecaptcha
-                        cq:isDelivered="{Boolean}true"
-                        cq:lastReplicated="{Date}2023-10-13T20:36:01.403Z"
-                        cq:lastReplicated_publish="{Date}2023-10-13T20:36:01.403Z"
-                        cq:lastReplicated_scene7="{Date}2023-10-13T20:36:01.403Z"
-                        cq:lastReplicatedBy="r.d.vantol@dow.com"
-                        cq:lastReplicatedBy_publish="r.d.vantol@dow.com"
-                        cq:lastReplicatedBy_scene7="r.d.vantol@dow.com"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_publish="Activate"
-                        cq:lastReplicationAction_scene7="Activate"
-                        jcr:created="{Date}2023-10-11T13:44:58.806Z"
-                        jcr:createdBy="vpislaru@dow.com"
-                        jcr:lastModified="{Date}2023-10-11T13:45:14.566Z"
-                        jcr:lastModifiedBy="vpislaru@dow.com"
-                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="CAPTCHA"
-                        sling:resourceType="fd/af/components/guideCaptcha"
-                        captchaService="recaptcha"
-                        errorMessage="We are unable to process your request at this time. Please try again after sometime or contact the administrator for further assistance."
-                        guideNodeClass="guideCaptcha"
-                        mandatory="true"
-                        mandatoryMessage="Provide CAPTCHA to proceed."
-                        name="captcha1697031899301"
-                        rcCloudServicePath="recapcha-v2"
-                        rcSize="invisible"
-                        rcTheme="light"
-                        rcType="image"
-                        validateExpMessage="Invalid CAPTCHA. Try again."/>
                     <summarize_data
                         jcr:lastModified="{Date}2023-09-04T11:59:34.196Z"
                         jcr:lastModifiedBy="alin.costin@brandwidth.com"

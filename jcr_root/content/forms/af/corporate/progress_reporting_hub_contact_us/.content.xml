@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:conf="/conf/forms"
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-24T21:21:39.483Z"
+        cq:lastModified="{Date}2023-10-09T08:57:41.912Z"
         cq:lastModifiedBy="alin.costin@brandwidth.com"
-        cq:lastReplicated="{Date}2023-10-24T21:21:50.478Z"
-        cq:lastReplicated_publish="{Date}2023-10-24T21:21:50.478Z"
-        cq:lastReplicated_scene7="{Date}2023-10-24T21:21:50.478Z"
-        cq:lastReplicatedBy="alin.costin@brandwidth.com"
-        cq:lastReplicatedBy_publish="alin.costin@brandwidth.com"
-        cq:lastReplicatedBy_scene7="alin.costin@brandwidth.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
         cq:template="/conf/forms/settings/wcm/templates/mock-template"
-        jcr:isCheckedOut="{Boolean}true"
         jcr:language="en"
-        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Progress Reporting Hub - Contact Us"
-        jcr:uuid="99e44ccc-d7bd-4786-a3f5-0845b7b06af8"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
             fd:version="1.1"
@@ -152,13 +139,13 @@
                                 name="textbox-last-name"
                                 textIsRich="[true,true,true]"/>
                             <guideemail
-                                jcr:lastModified="{Date}2023-10-24T20:59:56.122Z"
-                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:lastModified="{Date}2023-09-21T14:56:49.155+03:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Email"
                                 sling:resourceType="fd/af/components/guideemail"
                                 autofillFieldKeyword="email"
-                                bindRef="/formFields/emailAddress"
+                                bindRef="/formFields/email"
                                 guideNodeClass="guideTextBox"
                                 mandatory="true"
                                 mandatoryMessage="This field is required"
@@ -167,13 +154,13 @@
                                 validatePictureClause="^(([^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+(\\.[^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+)*)|(&quot;.+&quot;))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
                                 validationPatternType="custom"/>
                             <guidetelephone
-                                jcr:lastModified="{Date}2023-10-24T21:00:21.432Z"
-                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:lastModified="{Date}2023-09-21T17:29:42.273+03:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Phone"
                                 sling:resourceType="fd/af/components/guidetelephone"
                                 autofillFieldKeyword="tel"
-                                bindRef="/formFields/busPhone"
+                                bindRef="/formFields/phone"
                                 enabled="{Boolean}true"
                                 guideNodeClass="guideTelephone"
                                 mandatory="true"
@@ -185,13 +172,13 @@
                                 validationPatternType="^[+][0-9]{0,14}$"
                                 visible="{Boolean}true"/>
                             <guidetextbox_1407098644
-                                jcr:lastModified="{Date}2023-10-24T21:00:44.037Z"
-                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:lastModified="{Date}2023-09-21T14:57:52.322+03:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Company Name"
                                 sling:resourceType="fd/af/components/guidetextbox"
                                 autofillFieldKeyword="name"
-                                bindRef="/formFields/company"
+                                bindRef="/formFields/companyName"
                                 guideNodeClass="guideTextBox"
                                 mandatory="true"
                                 mandatoryMessage="This field is required"
@@ -230,34 +217,32 @@
                                         options="[Administration,Architect,Builder Contractor,Business Development,C-level,Consulting,Customer Service,Design,Engineering,Financial / Accounting,General Public,Homeowner,Human Resources,Information Systems,Legal,Management / Executive,Manufacturing / Operations,Marketing,Public Affairs / Communication,Purchasing,Quality,Regulatory / Environmental Health &amp; Safety,Sales,Supply Chain / Logistics,Sustainability,Technical / Application Support,Other or Not Applicable]"
                                         placeholderText=" Please select"
                                         textIsRich="[true,true]"/>
-                                    <panel_copy_copy
-                                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##panel_copy##jcr:title##7148&quot;}"
-                                        jcr:lastModified="{Date}2023-10-24T21:21:39.443Z"
-                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                    <guidedropdownlist
+                                        jcr:lastModified="{Date}2023-09-21T14:58:19.802+03:00"
+                                        jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        jcr:title="Section"
-                                        sling:resourceType="fd/af/components/panel"
-                                        fragRef="/content/dam/formsanddocuments/fragments/eloqua_countries_dropdown_fragment-copy1"
-                                        guideNodeClass="guidePanel"
-                                        name="panel-country"
-                                        textIsRich="true"
-                                        validateOnStepCompletion="{Boolean}false">
-                                        <layout
+                                        jcr:title="Country/Region"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="/formFields/country"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="country"
+                                        placeholderText="Please select"
+                                        textIsRich="[true,true]">
+                                        <fd:rules
+                                            fd:options="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OPTIONS_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.country&quot;\,&quot;type&quot;:&quot;DROPDOWN&quot;\,&quot;name&quot;:&quot;country&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;OPTIONS_LIST&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_OPTIONS_EXPRESSION&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{}\,&quot;outputModel&quot;:{&quot;displayValue&quot;:&quot;name&quot;\,&quot;saveValue&quot;:&quot;countryCode&quot;}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/countries-dm&quot;\,&quot;operationTitle&quot;:&quot;GET /.dow.countryData.info.json&quot;\,&quot;operationName&quot;:&quot;GET /.dow.countryData.info.json&quot;\,&quot;runValidation&quot;:false}}}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/countries-dm\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;GET /.dow.countryData.info.json\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;GET /.dow.countryData.info.json\\&quot;\,\\n    \\&quot;runValidation\\&quot;: false\\n};\\nvar inputs = {\\n};\\nvar outputs={\\n    savedValue:'countryCode'\,\\n    displayedValue:'name'\,\\n    field:this\\n};\\nguidelib.dataIntegrationUtils.setOptionsFromService(operationInfo\, inputs\, outputs);\\n&quot;\,&quot;eventName&quot;:&quot;Options&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
                                             jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
-                                            columns="1"
-                                            nonNavigable="{Boolean}true"
-                                            toolbarPosition="Bottom"/>
-                                        <items jcr:primaryType="nt:unstructured"/>
-                                    </panel_copy_copy>
+                                            validationStatus="valid"/>
+                                    </guidedropdownlist>
                                     <guidetextbox
-                                        jcr:lastModified="{Date}2023-10-24T21:01:24.885Z"
-                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:lastModified="{Date}2023-09-21T14:58:32.332+03:00"
+                                        jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Add a comment or question"
                                         sling:resourceType="fd/af/components/guidetextbox"
                                         autofillFieldKeyword="name"
-                                        bindRef="/formFields/paragraphText"
+                                        bindRef="/formFields/comment"
                                         guideNodeClass="guideTextBox"
                                         mandatory="true"
                                         mandatoryMessage="This field is required"
@@ -330,12 +315,12 @@
                             <panel_copy_214349826 jcr:primaryType="nt:unstructured"/>
                             <panel_copy_214349826_1983577254 jcr:primaryType="nt:unstructured"/>
                             <guidetextbox_copy_1951719588
-                                jcr:lastModified="{Date}2023-10-24T21:02:29.347Z"
-                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:lastModified="{Date}2023-09-15T15:17:57.245+01:00"
+                                jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="elqFormName"
                                 sling:resourceType="fd/af/components/guidetextbox"
-                                _value="en-us-esg-contactus"
+                                _value="PROGRESS REPORTING HUB - CONTACT US"
                                 autofillFieldKeyword="name"
                                 bindRef="/formFields/elqFormName"
                                 guideNodeClass="guideTextBox"

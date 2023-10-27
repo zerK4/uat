@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:conf="/conf/forms"
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-24T16:01:28.249Z"
+        cq:lastModified="{Date}2023-10-20T01:01:42.608Z"
         cq:lastModifiedBy="alin.costin@brandwidth.com"
-        cq:lastReplicated="{Date}2023-10-13T17:03:44.763Z"
-        cq:lastReplicated_publish="{Date}2023-10-13T17:03:44.763Z"
-        cq:lastReplicated_scene7="{Date}2023-10-13T17:03:44.763Z"
-        cq:lastReplicatedBy="Geoff.pais@brandwidth.com"
-        cq:lastReplicatedBy_publish="Geoff.pais@brandwidth.com"
-        cq:lastReplicatedBy_scene7="Geoff.pais@brandwidth.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
         cq:template="/conf/forms/settings/wcm/templates/mock-template"
-        jcr:isCheckedOut="{Boolean}true"
+        fd:translationIds="\{&quot;jcr:title&quot;:&quot;jcr:title##8039&quot;}"
         jcr:language="en"
-        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Technical Inquiry - Product Recommendation "
-        jcr:uuid="474a8394-ccc9-4ede-a55d-be41295a1475"
         sling:resourceType="fd/af/components/page2/aftemplatedpage">
         <guideContainer
+            fd:translationIds="\{&quot;thankYouMessage&quot;:&quot;guideContainer##thankYouMessage##4139&quot;}"
             fd:version="1.1"
-            jcr:lastModified="{Date}2023-10-13T09:53:39.578Z"
+            jcr:lastModified="{Date}2023-09-04T12:50:58.403Z"
             jcr:lastModifiedBy="alin.costin@brandwidth.com"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="fd/af/components/guideContainer"
@@ -55,9 +44,10 @@
             <layout
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="fd/af/layouts/defaultGuideLayout"
-                mobileLayout="dow-platform/clientlibs/clientlibs-forms/theme-base-clientlibs/mobile-layout"
+                mobileLayout="fd/af/layouts/mobile/step"
                 toolbarPosition="Bottom"/>
             <rootPanel
+                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##jcr:title##837&quot;}"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Root Panel"
                 sling:resourceType="fd/af/components/rootPanel"
@@ -75,6 +65,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout2">
                     <panel_1158903488
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##jcr:title##9389&quot;}"
                         jcr:lastModified="{Date}2023-09-01T14:35:34.651+03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -94,6 +85,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="fd/af/layouts/gridFluidLayout2">
                             <guidetextdraw
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextdraw##_value##8794&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T14:32:00.820+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -103,6 +95,7 @@
                                 name="textdraw-all-fields"
                                 textIsRich="true"/>
                             <afformtitle
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##afformtitle##_value##2635&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##afformtitle##jcr:title##4496&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T14:36:40.737+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -114,6 +107,7 @@
                                 name="formTitle-recomm"
                                 textIsRich="true"/>
                             <guidetextbox_copy
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_copy##mandatoryMessage##1002&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_copy##jcr:title##3358&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T15:52:31.876+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -127,6 +121,7 @@
                                 name="textbox-end-product"
                                 textIsRich="[true,true,true]"/>
                             <guidetextbox_copy_89
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_copy_89##mandatoryMessage##9135&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_copy_89##jcr:title##6477&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T15:52:41.607+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -140,6 +135,7 @@
                                 name="textbox-benefit"
                                 textIsRich="[true,true,true]"/>
                             <guideradiobutton
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guideradiobutton##mandatoryMessage##2639&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guideradiobutton##jcr:title##9086&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guideradiobutton##options##936&quot;}"
                                 jcr:lastModified="{Date}2023-10-04T17:18:19.711Z"
                                 jcr:lastModifiedBy="alin.costin@brandwidth.com"
                                 jcr:primaryType="nt:unstructured"
@@ -157,6 +153,7 @@
                                     jcr:primaryType="nt:unstructured"/>
                             </guideradiobutton>
                             <guidetextbox_659211870
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_659211870##jcr:title##1667&quot;}"
                                 jcr:created="{Date}2023-10-04T15:37:22.638Z"
                                 jcr:createdBy="vpislaru@dow.com"
                                 jcr:lastModified="{Date}2023-10-05T09:07:06.211Z"
@@ -171,6 +168,7 @@
                                 textIsRich="[true,true,true]"
                                 visible="{Boolean}false"/>
                             <guidecheckbox
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidecheckbox##mandatoryMessage##5660&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidecheckbox##jcr:title##2433&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidecheckbox##options##9226&quot;}"
                                 jcr:lastModified="{Date}2023-09-26T17:31:25.739+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -189,6 +187,7 @@
                                     jcr:primaryType="nt:unstructured"/>
                             </guidecheckbox>
                             <guidetextbox_2053239
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_2053239##jcr:title##9189&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_2053239##placeholderText##6548&quot;}"
                                 jcr:lastModified="{Date}2023-10-04T15:37:06.163Z"
                                 jcr:lastModifiedBy="vpislaru@dow.com"
                                 jcr:primaryType="nt:unstructured"
@@ -203,6 +202,7 @@
                                 textIsRich="[true,true,true]"
                                 visible="{Boolean}false"/>
                             <guidetextbox_1482639
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1482639##jcr:title##7072&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1482639##placeholderText##8477&quot;}"
                                 jcr:lastModified="{Date}2023-10-04T15:37:16.258Z"
                                 jcr:lastModifiedBy="vpislaru@dow.com"
                                 jcr:primaryType="nt:unstructured"
@@ -217,12 +217,13 @@
                                 textIsRich="[true,true,true]"
                                 visible="{Boolean}false"/>
                             <panel_copy_935196040
-                                jcr:lastModified="{Date}2023-10-12T11:05:31.809Z"
-                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##panel_copy_935196040##jcr:title##5752&quot;}"
+                                jcr:lastModified="{Date}2023-10-05T16:44:15.705Z"
+                                jcr:lastModifiedBy="vpislaru@dow.com"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Section"
                                 sling:resourceType="fd/af/components/panel"
-                                fragRef="/content/dam/formsanddocuments/fragments/dropdown_input_component"
+                                fragRef="/content/dam/formsanddocuments/dropdown-input-component"
                                 guideNodeClass="guidePanel"
                                 name="panel-annual-volume"
                                 textIsRich="true"
@@ -247,6 +248,7 @@
                                 name="separator1692179450839"
                                 thickness="1"/>
                             <afformtitle_19156420
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##afformtitle_19156420##_value##6398&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##afformtitle_19156420##jcr:title##6216&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T14:36:54.346+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -258,6 +260,7 @@
                                 name="formTitle-personal"
                                 textIsRich="true"/>
                             <guidetextbox_1764868
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1764868##mandatoryMessage##1665&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1764868##jcr:title##1461&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T15:55:27.151+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -271,6 +274,7 @@
                                 name="textbox-first-name"
                                 textIsRich="[true,true,true]"/>
                             <guidetextbox_1835554
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1835554##mandatoryMessage##8393&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1835554##jcr:title##4269&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T15:55:34.258+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -284,6 +288,7 @@
                                 name="textbox-last-name"
                                 textIsRich="[true,true,true]"/>
                             <guideemail
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guideemail##mandatoryMessage##9505&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guideemail##jcr:title##2268&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T15:55:42.485+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -299,6 +304,7 @@
                                 validatePictureClause="^(([^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+(\\.[^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+)*)|(&quot;.+&quot;))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
                                 validationPatternType="custom"/>
                             <guidetelephone_copy_
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetelephone_copy_##jcr:title##8269&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetelephone_copy_##placeholderText##8858&quot;,&quot;validatePictureClauseMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetelephone_copy_##validatePictureClauseMessage##9605&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T17:36:30.139+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -314,6 +320,7 @@
                                 validatePictureClauseMessage="Incorrect format: Please begin with +"
                                 validationPatternType="^[+][0-9]{0,14}$"/>
                             <guidedropdownlist
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidedropdownlist##jcr:title##1918&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidedropdownlist##options##6681&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidedropdownlist##placeholderText##8253&quot;}"
                                 jcr:lastModified="{Date}2023-09-19T19:34:50.885+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -327,6 +334,7 @@
                                 placeholderText=" "
                                 textIsRich="[true,true]"/>
                             <afformtitle_71327489
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##afformtitle_71327489##_value##7029&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##afformtitle_71327489##jcr:title##6604&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T14:37:02.952+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -338,6 +346,7 @@
                                 name="formTitle-company"
                                 textIsRich="true"/>
                             <guidetextbox_1364004
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1364004##mandatoryMessage##3159&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_1364004##jcr:title##5909&quot;}"
                                 jcr:lastModified="{Date}2023-09-21T15:55:51.352+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -351,6 +360,7 @@
                                 name="textbox-company"
                                 textIsRich="[true,true,true]"/>
                             <panel_copy
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##panel_copy##jcr:title##6590&quot;}"
                                 jcr:lastModified="{Date}2023-09-27T13:54:09.097+01:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -370,6 +380,7 @@
                                 <items jcr:primaryType="nt:unstructured"/>
                             </panel_copy>
                             <guidedropdownlist_13
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidedropdownlist_13##jcr:title##6087&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidedropdownlist_13##options##438&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidedropdownlist_13##placeholderText##6793&quot;}"
                                 jcr:lastModified="{Date}2023-10-06T11:53:17.860Z"
                                 jcr:lastModifiedBy="alin.costin@brandwidth.com"
                                 jcr:primaryType="nt:unstructured"
@@ -382,6 +393,7 @@
                                 placeholderText=" "
                                 textIsRich="[true,true]"/>
                             <panel_245963411_copy
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##panel_245963411_copy##jcr:title##1119&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T14:35:04.004+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -402,6 +414,7 @@
                                 <items jcr:primaryType="nt:unstructured"/>
                             </panel_245963411_copy>
                             <guidetextbox_copy_45769889
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##guidetextbox_copy_45769889##jcr:title##1692&quot;}"
                                 jcr:lastModified="{Date}2023-09-06T14:44:18.787+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -415,6 +428,7 @@
                                 textIsRich="[true,true,true]"
                                 visible="{Boolean}false"/>
                             <panel_817757853
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##panel_817757853##jcr:title##2171&quot;}"
                                 jcr:lastModified="{Date}2023-09-27T13:54:17.596+01:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -434,6 +448,7 @@
                                 <items jcr:primaryType="nt:unstructured"/>
                             </panel_817757853>
                             <submit
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##submit##jcr:title##5635&quot;}"
                                 jcr:lastModified="{Date}2023-09-01T14:35:18.803+03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
@@ -450,6 +465,7 @@
                             </submit>
                             <nextitemnav_copy
                                 fd:targetVersion="1.1"
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1158903488##items##nextitemnav_copy##jcr:title##2975&quot;}"
                                 jcr:lastModified="{Date}2023-09-04T11:56:54.269Z"
                                 jcr:lastModifiedBy="alin.costin@brandwidth.com"
                                 jcr:primaryType="nt:unstructured"
@@ -473,6 +489,7 @@
                         </items>
                     </panel_1158903488>
                     <panel
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel##jcr:title##6391&quot;}"
                         jcr:lastModified="{Date}2023-09-27T13:54:26.851+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -494,6 +511,7 @@
                         <items jcr:primaryType="nt:unstructured"/>
                     </panel>
                     <guidecaptcha
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidecaptcha##jcr:title##760&quot;,&quot;validateExpMessage&quot;:&quot;guideContainer##rootPanel##items##guidecaptcha##validateExpMessage##5447&quot;,&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##guidecaptcha##mandatoryMessage##870&quot;}"
                         jcr:created="{Date}2023-10-05T11:51:01.504Z"
                         jcr:createdBy="alin.costin@brandwidth.com"
                         jcr:lastModified="{Date}2023-10-05T11:51:11.704Z"

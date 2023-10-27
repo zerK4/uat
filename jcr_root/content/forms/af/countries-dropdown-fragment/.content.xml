@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/forms"
+        cq:designPath="/libs/settings/wcm/designs/fd/af/default"
+        cq:deviceGroups="mobile/groups/responsive"
+        cq:isDelivered="{Boolean}true"
+        cq:lastModified="{Date}2023-09-27T20:06:17.117Z"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-09-26T17:55:24.106Z"
+        cq:lastReplicated_publish="{Date}2023-09-26T17:55:24.106Z"
+        cq:lastReplicated_scene7="{Date}2023-09-26T17:55:24.106Z"
+        cq:lastReplicatedBy="s.vaddamani@dow.com"
+        cq:lastReplicatedBy_publish="s.vaddamani@dow.com"
+        cq:lastReplicatedBy_scene7="s.vaddamani@dow.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
+        fd:translationIds="\{&quot;jcr:title&quot;:&quot;jcr:title##1743&quot;}"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Countries Dropdown Fragment"
+        jcr:uuid="6fa18197-902d-485e-a708-ff6cf5a41cc4"
+        sling:resourceType="fd/af/components/page/basePageForFragment">
+        <guideContainer
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideFragmentContainer"
+            dorType="none"
+            fragmentModelRoot="/formFields"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="fragment1"
+            schemaRef="/content/dam/formsanddocuments-fdm/contact-us-data-model"
+            schemaType="formdatamodel">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/components/rootPanel"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <guidedropdownlist
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##jcr:title##2793&quot;,&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##mandatoryMessage##1329&quot;}"
+                        jcr:lastModified="{Date}2023-09-21T17:27:30.297+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Country"
+                        sling:resourceType="fd/af/components/guidedropdownlist"
+                        bindRef="/formFields/contactFields/sCountry"
+                        guideNodeClass="guideDropDownList"
+                        mandatory="true"
+                        mandatoryMessage="This field is required"
+                        name="country"
+                        textIsRich="[true,true]">
+                        <fd:rules
+                            fd:options="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OPTIONS_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.country&quot;\,&quot;type&quot;:&quot;DROPDOWN&quot;\,&quot;name&quot;:&quot;country&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;OPTIONS_LIST&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_OPTIONS_EXPRESSION&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{}\,&quot;outputModel&quot;:{&quot;displayValue&quot;:&quot;name&quot;\,&quot;saveValue&quot;:&quot;countryCode&quot;}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/countries-dm&quot;\,&quot;operationTitle&quot;:&quot;GET /.dow.countryData.info.json&quot;\,&quot;operationName&quot;:&quot;GET /.dow.countryData.info.json&quot;\,&quot;runValidation&quot;:false}}}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/countries-dm\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;GET /.dow.countryData.info.json\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;GET /.dow.countryData.info.json\\&quot;\,\\n    \\&quot;runValidation\\&quot;: false\\n};\\nvar inputs = {\\n};\\nvar outputs={\\n    savedValue:'countryCode'\,\\n    displayedValue:'name'\,\\n    field:this\\n};\\nguidelib.dataIntegrationUtils.setOptionsFromService(operationInfo\, inputs\, outputs);\\n&quot;\,&quot;eventName&quot;:&quot;Options&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                            jcr:primaryType="nt:unstructured"
+                            validationStatus="valid"/>
+                    </guidedropdownlist>
+                </items>
+            </rootPanel>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="{Boolean}false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+        </guideContainer>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <smallScreen
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}479"/>
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Phone"
+                    width="{Decimal}767"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}991"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
