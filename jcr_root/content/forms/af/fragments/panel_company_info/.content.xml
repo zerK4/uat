@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/libs/settings/wcm/designs/fd/af/default"
         cq:deviceGroups="mobile/groups/responsive"
-        cq:isDelivered="{Boolean}true"
         cq:lastModified="{Date}2023-09-21T17:26:24.395+03:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-10-18T16:04:16.941Z"
-        cq:lastReplicated_publish="{Date}2023-10-18T16:04:16.941Z"
-        cq:lastReplicated_scene7="{Date}2023-10-18T16:04:16.941Z"
-        cq:lastReplicatedBy="vpislaru@dow.com"
-        cq:lastReplicatedBy_publish="vpislaru@dow.com"
-        cq:lastReplicatedBy_scene7="vpislaru@dow.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
         cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
-        jcr:isCheckedOut="{Boolean}true"
         jcr:language="en"
-        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Company Information"
-        jcr:uuid="0b9e8b32-ca8c-4da5-a46a-7e807b054a4a"
         sling:resourceType="fd/af/components/page/basePageForFragment">
         <guideContainer
             fd:version="1.1"

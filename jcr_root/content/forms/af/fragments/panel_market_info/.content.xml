@@ -4,9 +4,10 @@
     <jcr:content
         cq:designPath="/libs/settings/wcm/designs/fd/af/default"
         cq:deviceGroups="mobile/groups/responsive"
-        cq:lastModified="{Date}2023-10-26T11:02:40.616Z"
+        cq:lastModified="{Date}2023-10-25T12:18:55.073Z"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
+        fd:translationIds="\{&quot;jcr:title&quot;:&quot;jcr:title##8380&quot;}"
         jcr:language="en"
         jcr:primaryType="cq:PageContent"
         jcr:title="Market Application"
@@ -37,6 +38,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout2">
                     <afformtitle_10474416
+                        fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##afformtitle_10474416##_value##7350&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##afformtitle_10474416##jcr:title##1684&quot;}"
                         jcr:lastModified="Fri Aug 18 2023 19:17:54 GMT+0300"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -48,6 +50,7 @@
                         name="formTitle"
                         textIsRich="true"/>
                     <guidedropdownlist_11
+                        fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_11##mandatoryMessage##8491&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_11##jcr:title##2128&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_11##placeholderText##191&quot;}"
                         jcr:lastModified="{Date}2023-09-21T17:25:09.965+03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -64,6 +67,7 @@
                             jcr:primaryType="nt:unstructured"/>
                     </guidedropdownlist_11>
                     <guidedropdownlist_11_1459931244
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_11_1459931244##jcr:title##3309&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_11_1459931244##placeholderText##5856&quot;}"
                         jcr:lastModified="Fri Aug 18 2023 19:18:59 GMT+0300"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -79,6 +83,7 @@
                             jcr:primaryType="nt:unstructured"/>
                     </guidedropdownlist_11_1459931244>
                     <guidedropdownlist
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##jcr:title##5146&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##placeholderText##7045&quot;}"
                         jcr:lastModified="Fri Aug 18 2023 19:19:11 GMT+0300"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"

@@ -5,9 +5,10 @@
         cq:conf="/conf/forms"
         cq:designPath="/libs/settings/wcm/designs/fd/af/default"
         cq:deviceGroups="mobile/groups/responsive"
-        cq:lastModified="{Date}2023-10-26T11:02:41.148Z"
+        cq:lastModified="{Date}2023-10-25T12:15:56.687Z"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
+        fd:translationIds="\{&quot;jcr:title&quot;:&quot;jcr:title##6322&quot;}"
         jcr:primaryType="cq:PageContent"
         jcr:title="Market Dropdowns Fragment"
         sling:resourceType="fd/af/components/page/basePageForFragment">
@@ -41,6 +42,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="fd/af/layouts/gridFluidLayout2">
                     <guidedropdownlist
+                        fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##mandatoryMessage##5315&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##jcr:title##9250&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist##placeholderText##126&quot;}"
                         jcr:lastModified="{Date}2023-09-21T17:26:57.044+03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -59,6 +61,7 @@
                             jcr:primaryType="nt:unstructured"/>
                     </guidedropdownlist>
                     <guidetextbox
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidetextbox##jcr:title##5822&quot;}"
                         jcr:lastModified="{Date}2023-09-22T19:17:14.003+03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -69,6 +72,7 @@
                         name="otherComments"
                         textIsRich="[true,true,true]"/>
                     <guidedropdownlist_1220425774
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_1220425774##jcr:title##3594&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_1220425774##placeholderText##1692&quot;}"
                         jcr:lastModified="{Date}2023-08-30T14:57:05.624+03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -86,6 +90,7 @@
                             jcr:primaryType="nt:unstructured"/>
                     </guidedropdownlist_1220425774>
                     <guidedropdownlist_1957009797
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_1957009797##jcr:title##1024&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##guidedropdownlist_1957009797##placeholderText##4869&quot;}"
                         jcr:lastModified="{Date}2023-09-06T13:55:07.977+03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"

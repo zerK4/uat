@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/libs/settings/wcm/designs/fd/af/default"
         cq:deviceGroups="mobile/groups/responsive"
-        cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-26T11:02:40.806Z"
+        cq:lastModified="{Date}2023-10-19T22:55:45.200Z"
         cq:lastModifiedBy="alin.costin@brandwidth.com"
-        cq:lastReplicated="{Date}2023-10-18T15:26:04.546Z"
-        cq:lastReplicated_publish="{Date}2023-10-18T15:26:04.546Z"
-        cq:lastReplicated_scene7="{Date}2023-10-18T15:26:04.546Z"
-        cq:lastReplicatedBy="alin.costin@brandwidth.com"
-        cq:lastReplicatedBy_publish="alin.costin@brandwidth.com"
-        cq:lastReplicatedBy_scene7="alin.costin@brandwidth.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
         cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
         fd:translationIds="\{&quot;jcr:title&quot;:&quot;jcr:title##9283&quot;}"
-        jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Dropdown/Input Component"
-        jcr:uuid="dd36926c-cbef-4d30-95b6-529cb4bf3cb9"
         sling:resourceType="fd/af/components/page/basePageForFragment">
         <guideContainer
             fd:version="1.1"
@@ -75,16 +62,16 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="fd/af/layouts/gridFluidLayout2">
                             <guidetextbox
-                                fd:translationIds="\{&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel##items##guidetextbox##placeholderText##3313&quot;}"
-                                jcr:lastModified="{Date}2023-10-12T08:38:35.146Z"
-                                jcr:lastModifiedBy="vpislaru@dow.com"
+                                fd:translationIds="\{&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel##items##guidetextbox##placeholderText##3313&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel##items##guidetextbox##jcr:title##7337&quot;}"
+                                jcr:lastModified="{Date}2023-10-06T15:53:49.749Z"
+                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Expected Annual Volume"
                                 sling:resourceType="fd/af/components/guidetextbox"
                                 autofillFieldKeyword="name"
                                 guideNodeClass="guideTextBox"
                                 mandatory="true"
-                                name="expected-annual-volume-textbox"
+                                name="textbox1693819958095"
                                 placeholderText="Please enter quantity..."
                                 textIsRich="[true,true,true]">
                                 <fd:rules
@@ -92,8 +79,8 @@
                                     jcr:primaryType="nt:unstructured"/>
                             </guidetextbox>
                             <guidedropdownlist
-                                fd:translationIds="\{&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel##items##guidedropdownlist##options##8031&quot;}"
-                                jcr:lastModified="{Date}2023-10-18T15:25:28.305Z"
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel##items##guidedropdownlist##jcr:title##1878&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel##items##guidedropdownlist##options##6004&quot;}"
+                                jcr:lastModified="{Date}2023-10-12T12:27:44.572Z"
                                 jcr:lastModifiedBy="alin.costin@brandwidth.com"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Expected Annual Volume"

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-08-16T18:42:29.455+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/forms/settings/wcm/templates/mock-template"
+        jcr:language="en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Regulatory Inquiries - I know what I'm looking for"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            dorType="none"
+            enableAsyncSubmission="true"
+            enableServerValidation="true"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/dow-theme">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <guidetextdraw
+                        jcr:lastModified="{Date}2023-08-15T18:06:11.300+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>All fields are mandatory unless marked (optional)&lt;/p>&#xd;&#xa;"
+                        guideNodeClass="guideTextDraw"
+                        name="textdraw1692111951714"
+                        textIsRich="true"/>
+                    <afformtitle
+                        jcr:lastModified="{Date}2023-08-15T18:06:37.091+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Adaptive Form Title"
+                        sling:resourceType="fd/af/components/afFormTitle"
+                        _value="&lt;p>Product Information&lt;/p>&#xd;&#xa;"
+                        css="guideformtitle container"
+                        guideNodeClass="guideTextDraw"
+                        name="formTitle"
+                        textIsRich="true"/>
+                    <guidetextbox_157457856
+                        jcr:lastModified="{Date}2023-08-16T18:42:15.637+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Please enter a product name"
+                        sling:resourceType="fd/af/components/guidetextbox"
+                        autofillFieldKeyword="name"
+                        guideNodeClass="guideTextBox"
+                        mandatory="true"
+                        name="textbox_1574578561692200501094"
+                        placeholderText="What are you looking for?"
+                        textIsRich="[true,true,true]"/>
+                    <guidetextbox
+                        jcr:lastModified="{Date}2023-08-15T18:07:30.235+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Text Box"
+                        sling:resourceType="fd/af/components/guidetextbox"
+                        autofillFieldKeyword="name"
+                        guideNodeClass="guideTextBox"
+                        hideTitle="true"
+                        multiLine="true"
+                        name="textbox1692112019758"
+                        placeholderText="Add Comments..."
+                        textIsRich="[true,true,true]"/>
+                    <guidedropdownlist
+                        jcr:lastModified="{Date}2023-08-16T13:50:35.151+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Application"
+                        sling:resourceType="fd/af/components/guidedropdownlist"
+                        guideNodeClass="guideDropDownList"
+                        mandatory="true"
+                        name="dropdownlist1692112068612"
+                        placeholderText="Please select Application..."
+                        textIsRich="[true,true]"/>
+                    <afformtitle_714850949
+                        jcr:lastModified="{Date}2023-08-15T18:08:43.338+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Adaptive Form Title"
+                        sling:resourceType="fd/af/components/afFormTitle"
+                        _value="&lt;p>Select Subtopic&lt;/p>&#xd;&#xa;"
+                        css="guideformtitle container"
+                        guideNodeClass="guideTextDraw"
+                        name="formTitle"
+                        textIsRich="true"/>
+                    <guidecheckbox
+                        jcr:lastModified="{Date}2023-08-16T13:50:42.177+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Please select all that apply"
+                        sling:resourceType="fd/af/components/guidecheckbox"
+                        alignment="guideFieldVerticalAlignment"
+                        guideNodeClass="guideCheckBox"
+                        mandatory="true"
+                        name="checkbox1692112131654"
+                        options="[0=Global Chemical Compliance and Product Safety Literature,1=Application Specific information,2=Composition inquiries,3=Sustainability]"
+                        textIsRich="[true,true]">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </guidecheckbox>
+                    <guideseparator
+                        jcr:lastModified="{Date}2023-08-15T18:13:06.757+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Separator"
+                        sling:resourceType="fd/af/components/guideseparator"
+                        guideNodeClass="guideSeparator"
+                        name="separator1692112386904"
+                        thickness="1"/>
+                    <afformtitle_720890875
+                        jcr:lastModified="{Date}2023-08-15T18:13:28.514+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Adaptive Form Title"
+                        sling:resourceType="fd/af/components/afFormTitle"
+                        _value="&lt;p>Personal Information&lt;/p>&#xd;&#xa;"
+                        css="guideformtitle container"
+                        guideNodeClass="guideTextDraw"
+                        name="formTitle"
+                        textIsRich="true"/>
+                    <panel
+                        jcr:lastModified="{Date}2023-08-15T18:14:00.867+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        fragRef="/content/dam/formsanddocuments/Panel-Personal-Info"
+                        guideNodeClass="guidePanel"
+                        name="panel1692112424496"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured"/>
+                    </panel>
+                    <guidedropdownlist_1237282331
+                        jcr:lastModified="{Date}2023-08-16T13:50:49.238+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Contact Preference "
+                        sling:resourceType="fd/af/components/guidedropdownlist"
+                        guideNodeClass="guideDropDownList"
+                        mandatory="true"
+                        name="dropdownlist_12372823311692112452775"
+                        textIsRich="[true,true]"/>
+                    <panel_548178789
+                        jcr:lastModified="{Date}2023-08-15T18:14:45.914+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        fragRef="/content/dam/formsanddocuments/panel_Company-Info"
+                        guideNodeClass="guidePanel"
+                        name="panel_5481787891692112474099"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured"/>
+                    </panel_548178789>
+                    <panel_492727073
+                        jcr:lastModified="{Date}2023-08-15T18:15:23.115+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        fragRef="/content/dam/formsanddocuments/panel_Attach-Doc"
+                        guideNodeClass="guidePanel"
+                        name="panel_4927270731692112508788"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured"/>
+                    </panel_492727073>
+                    <submit
+                        jcr:lastModified="{Date}2023-08-16T13:51:03.503+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Submit Inquiry"
+                        sling:resourceType="fd/af/components/actions/submit"
+                        dorExclusion="true"
+                        guideNodeClass="guideButton"
+                        name="submit1692183058891"
+                        textIsRich="[true,true]"
+                        type="submit">
+                        <fd:rules
+                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </submit>
+                </items>
+            </rootPanel>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="{Boolean}false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Content-Package-Id: my_packages:forms_translate_test
+Content-Package-Id: my_packages:forms_translate_test_3
 Content-Package-Roots: /content/forms
 Content-Package-Type: content
 
