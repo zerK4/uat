@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/forms"
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:isDelivered="{Boolean}true"
+        cq:lastModified="{Date}2023-10-25T15:15:04.170Z"
+        cq:lastModifiedBy="alin.costin@brandwidth.com"
+        cq:lastReplicated="{Date}2023-10-25T20:12:56.680Z"
+        cq:lastReplicated_publish="{Date}2023-10-25T20:12:56.680Z"
+        cq:lastReplicated_scene7="{Date}2023-10-25T20:12:56.680Z"
+        cq:lastReplicatedBy="alin.costin@brandwidth.com"
+        cq:lastReplicatedBy_publish="alin.costin@brandwidth.com"
+        cq:lastReplicatedBy_scene7="alin.costin@brandwidth.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/conf/forms/settings/wcm/templates/mock-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Request a Formulations Guide"
+        jcr:uuid="3d5c039c-3065-43ec-845d-ff068f1772bb"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2023-09-05T15:03:12.261+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            _invokeSubmitActionSync="true"
+            actionType="fd/afaddon/components/actions/fdm"
+            autoSaveStartExpression="true"
+            autoSaveStrategyType="fd/af/components/actions/autosave/eventbased"
+            disableSwipeGesture="{Boolean}false"
+            dorType="none"
+            enableAsyncSubmission="true"
+            enableFocusOnFirstField="{Boolean}true"
+            enableLayoutLayer="false"
+            enableServerValidation="true"
+            fdmEntityPath="/formFields"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            schemaRef="/content/dam/formsanddocuments-fdm/eloqua-data-model"
+            schemaType="formdatamodel"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/dow-theme"
+            useExistingAF="false">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/step"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <afJsonSchemaRoot
+                        jcr:lastModified="{Date}2023-09-05T15:48:33.409+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Contact  Us  Data  Model"
+                        sling:resourceType="fd/af/components/panel"
+                        collectionLevel="{Double}0.0"
+                        guideNodeClass="guidePanel"
+                        name="panel_form"
+                        parentCollectionPath="\0"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                            <panel_8934722
+                                jcr:lastModified="{Date}2023-09-05T15:49:23.094+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="panel-form"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                                    <guidetextdraw
+                                        jcr:lastModified="{Date}2023-09-19T16:42:18.348+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>The Formulations Guide from Dow Crop Solutions offers an overview of benefits, criteria and components of frequently used agrichemical formulations. We hope to help you meet the growing challenges in today’s industry through this guide, and we are eager to support you through our collaborative approach to problem solving and deep application and material knowledge.&lt;/p>&#xd;&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw1695130921149"
+                                        textIsRich="true"/>
+                                    <guidetextdraw_copy_1727644323
+                                        fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_1981271##items##guidetextdraw##_value##914&quot;}"
+                                        jcr:lastModified="{Date}2023-09-01T14:49:19.987+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>All fields are mandatory unless marked (optional)&lt;/p>&#xd;&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw-all-fields"
+                                        textIsRich="true"/>
+                                    <guidetextbox_1764868
+                                        jcr:lastModified="{Date}2023-09-21T15:05:44.247+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="First Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/firstName"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="textbox-first-name"
+                                        textIsRich="[true,true,true]"/>
+                                    <guidetextbox_1835554
+                                        jcr:lastModified="{Date}2023-10-03T17:30:47.373Z"
+                                        jcr:lastModifiedBy="r.d.vantol@dow.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Last Name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/lastName"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="textbox-last-name"
+                                        textIsRich="[true,true,true]"/>
+                                    <guidetextbox
+                                        jcr:lastModified="{Date}2023-10-25T15:13:28.662Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Job Title"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/JobTitle"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="textbox-job-title"
+                                        textIsRich="[true,true,true]"/>
+                                    <guidetextbox_1364004
+                                        jcr:lastModified="{Date}2023-09-21T15:06:10.141+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Company or Affiliation"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/companyName"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="textbox-company"
+                                        textIsRich="[true,true,true]"/>
+                                    <guideemail
+                                        jcr:lastModified="{Date}2023-10-25T15:14:09.699Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Email"
+                                        sling:resourceType="fd/af/components/guideemail"
+                                        autofillFieldKeyword="email"
+                                        bindRef="/formFields/emailaddress"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="email"
+                                        textIsRich="[true,true]"
+                                        validatePictureClause="^(([^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+(\\.[^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+)*)|(&quot;.+&quot;))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
+                                        validationPatternType="custom"/>
+                                    <guidecheckbox_copy
+                                        jcr:lastModified="{Date}2023-10-25T15:14:40.906Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="I would like to receive marketing emails from Dow"
+                                        sling:resourceType="fd/af/components/guidecheckbox"
+                                        alignment="guideFieldVerticalAlignment"
+                                        bindRef="/formFields/marketingOptIn"
+                                        guideNodeClass="guideCheckBox"
+                                        hideTitle="true"
+                                        name="checkbox-emails-from-dow"
+                                        options="[0=I would like to receive marketing emails from Dow (optional)]"
+                                        textIsRich="[true,true]"/>
+                                    <guidedropdownlist
+                                        jcr:lastModified="{Date}2023-10-25T15:14:53.553Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Company Size"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="/formFields/companySize1"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="dropdownlist-company-size"
+                                        options="[1 - 50 employees,51 - 300 employees,301 - 1000 employees,1001 - 5000 employees,>5001 employees]"
+                                        placeholderText=" Please select"
+                                        textIsRich="[true,true]"/>
+                                    <guidetelephone
+                                        jcr:lastModified="{Date}2023-10-25T15:15:04.147Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Business Phone"
+                                        sling:resourceType="fd/af/components/guidetelephone"
+                                        autofillFieldKeyword="tel"
+                                        bindRef="/formFields/busPhone"
+                                        guideNodeClass="guideTelephone"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="telephone"
+                                        textIsRich="[true,true]"
+                                        validatePictureClause="^[+][0-9]{0,14}$"
+                                        validatePictureClauseMessage="Incorrect format: Please begin with +"
+                                        validationPatternType="^[+][0-9]{0,14}$"/>
+                                    <panel_copy
+                                        jcr:lastModified="{Date}2023-09-05T15:47:26.520+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Section"
+                                        sling:resourceType="fd/af/components/panel"
+                                        guideNodeClass="guidePanel"
+                                        name="panel-country"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            columns="1"
+                                            nonNavigable="{Boolean}true"
+                                            toolbarPosition="Bottom"/>
+                                        <items
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                                            <panel_copy_copy
+                                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_1557572623##items##panel_copy##jcr:title##7148&quot;}"
+                                                jcr:lastModified="{Date}2023-10-23T14:26:50.653Z"
+                                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="Section"
+                                                sling:resourceType="fd/af/components/panel"
+                                                fragRef="/content/dam/formsanddocuments/fragments/eloqua_countries_dropdown_fragment-copy1"
+                                                guideNodeClass="guidePanel"
+                                                name="panel-country"
+                                                textIsRich="true"
+                                                validateOnStepCompletion="{Boolean}false">
+                                                <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                                    columns="1"
+                                                    nonNavigable="{Boolean}true"
+                                                    toolbarPosition="Bottom"/>
+                                                <items jcr:primaryType="nt:unstructured"/>
+                                            </panel_copy_copy>
+                                        </items>
+                                    </panel_copy>
+                                    <guidecheckbox
+                                        jcr:lastModified="{Date}2023-09-19T15:04:46.599+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Please select the Formulations Guide content you would like to receive (optional)"
+                                        sling:resourceType="fd/af/components/guidecheckbox"
+                                        alignment="guideFieldVerticalAlignment"
+                                        bindRef="/formFields/formulationsGuideContent"
+                                        guideNodeClass="guideCheckBox"
+                                        name="checkbox-formulations-guide"
+                                        options="[ Download the full Formulations Guide,Suspension Concentrate Formulation (SC), Emulsifiable Concentrate Formulation (EC), Capsule Suspension Formulation (CS),Microemulsion Formulation (ME), Emulsion: Oil in Water Formulation (EW),Suspo-Emulsion Formulation (SE),Soluble Concentrate Formulation (SL),Dispersible Granulate Formulation (WG),Water Soluble Powder Formulation (SP),Wettable Powder Formulation (WP),Oil Dispersion Formulation (OD), Formulation Charts]"
+                                        textIsRich="[true,true]"/>
+                                    <guidetextbox_copy
+                                        jcr:lastModified="{Date}2023-09-15T15:16:23.616+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="elqFormName"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        _value="REQUEST A FORMULATIONS GUIDE"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/elqFormName"
+                                        guideNodeClass="guideTextBox"
+                                        name="textbox-eloqua"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <panel_copy_1856045955
+                                        jcr:lastModified="{Date}2023-09-27T13:23:16.772+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Section"
+                                        sling:resourceType="fd/af/components/panel"
+                                        fragRef="/content/dam/formsanddocuments/fragments/hidden_fields_eloqua"
+                                        guideNodeClass="guidePanel"
+                                        name="panel-hidden-fields"
+                                        textIsRich="true"
+                                        validateOnStepCompletion="{Boolean}false">
+                                        <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                            columns="1"
+                                            nonNavigable="{Boolean}true"
+                                            toolbarPosition="Bottom"/>
+                                        <items jcr:primaryType="nt:unstructured"/>
+                                    </panel_copy_1856045955>
+                                    <guidetextdraw_copy
+                                        jcr:lastModified="{Date}2023-10-09T09:00:20.833Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>Our&amp;nbsp;&lt;a href=&quot;https://legal.dow.com/en-us/privacy-statement/customer-privacy-notice&quot; data-clickable-id=&quot;clickable-7&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;>Customer Privacy Notice — Marketing &amp;amp; Sales&lt;/a>&amp;nbsp;provides detailed information about the personal data we collect and process, the purposes for which we use the data, the legal bases we rely on, the third parties with whom we share the data, how long we keep the data, etc. For more information, please refer to our&amp;nbsp;&lt;a href=&quot;https://legal.dow.com/en-us/privacy-statement&quot; data-clickable-id=&quot;clickable-8&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;>Privacy Statement&lt;/a>.&lt;/p>&#xd;&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw1693997269762"
+                                        textIsRich="true"/>
+                                    <submit
+                                        jcr:lastModified="{Date}2023-09-05T15:48:22.582+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Submit"
+                                        sling:resourceType="fd/af/components/actions/submit"
+                                        dorExclusion="true"
+                                        guideNodeClass="guideButton"
+                                        name="submit"
+                                        textIsRich="[true,true]"
+                                        type="submit">
+                                        <fd:rules
+                                            fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </submit>
+                                    <guidetextdraw_938577933
+                                        jcr:lastModified="{Date}2023-09-20T18:38:32.432+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="fd/af/components/guidetextdraw"
+                                        _value="&lt;p>&lt;b>Data Privacy and Protection&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>The information collected in this form will only be used to ensure that we provide you with an appropriate response based upon the information you provide in the form above. We will contact you only if we need additional information to appropriately answer your question or in order to address your need. The contact information you provide, including e-mail address, may be used to respond to your request. We will not use the contact information you provide in this form for product or promotional advertising unless you specifically request to receive product news or information.&lt;/p>&#xd;&#xa;&lt;p>For more information, please review our &lt;a href=&quot;https://legal.dow.com/en-us/privacy-statement&quot; title=&quot;https://legal.dow.com/en-us/privacy-statement&quot; data-clickable-id=&quot;clickable-7&quot;>Privacy Policy&lt;/a>.&lt;/p>&#xd;&#xa;"
+                                        guideNodeClass="guideTextDraw"
+                                        name="textdraw_9385779331695130985428"
+                                        textIsRich="true"/>
+                                    <guideseparator_17964
+                                        jcr:lastModified="{Date}2023-09-04T12:32:55.641+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Separator"
+                                        sling:resourceType="fd/af/components/guideseparator"
+                                        css="fullWidthSeparator"
+                                        guideNodeClass="guideSeparator"
+                                        name="separator_17964353331693819958915"
+                                        thickness="1"/>
+                                </items>
+                            </panel_8934722>
+                        </items>
+                    </afJsonSchemaRoot>
+                    <panel
+                        jcr:lastModified="{Date}2023-10-05T08:53:47.742Z"
+                        jcr:lastModifiedBy="vpislaru@dow.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        css="ThankyouPanel thankYouDefault"
+                        fragRef="/content/dam/formsanddocuments/thank-you/panel_thank_you_default"
+                        guideNodeClass="guidePanel"
+                        name="panel_thank_you"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured"/>
+                    </panel>
+                    <summarize_data
+                        jcr:lastModified="{Date}2023-09-11T10:47:36.972+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dow-platform/components/forms/summarize-data"/>
+                    <guidecaptcha
+                        jcr:created="{Date}2023-10-04T19:18:36.066Z"
+                        jcr:createdBy="r.d.vantol@dow.com"
+                        jcr:lastModified="{Date}2023-10-04T19:19:10.137Z"
+                        jcr:lastModifiedBy="r.d.vantol@dow.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="CAPTCHA"
+                        sling:resourceType="fd/af/components/guideCaptcha"
+                        captchaService="recaptcha"
+                        errorMessage="We are unable to process your request at this time. Please try again after sometime or contact the administrator for further assistance."
+                        guideNodeClass="guideCaptcha"
+                        mandatory="true"
+                        mandatoryMessage="Provide CAPTCHA to proceed."
+                        name="captcha1696447116517"
+                        rcCloudServicePath="recapcha-v2"
+                        rcSize="invisible"
+                        rcTheme="light"
+                        rcType="image"
+                        validateExpMessage="Invalid CAPTCHA. Try again."/>
+                </items>
+            </rootPanel>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="undefined"
+                    delegateTo="undefined"
+                    email="undefined"
+                    emailSource="undefined"
+                    phone="undefined"
+                    phoneSource="undefined"
+                    recipientRole="undefined"
+                    securityOption="undefined"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <autoSaveInfo jcr:primaryType="nt:unstructured"/>
+            <fd:rules
+                fd:submitSuccess="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide&quot;\,&quot;type&quot;:&quot;FORM&quot;\,&quot;name&quot;:&quot;FORM&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is submitted successfully&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form&quot;\,&quot;displayName&quot;:&quot;Contact  Us  Data  Model&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Contact  Us  Data  Model/&quot;\,&quot;name&quot;:&quot;panel_form&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_thank_you&quot;\,&quot;displayName&quot;:&quot;Section&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section/&quot;\,&quot;name&quot;:&quot;panel_thank_you&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\npanel_form.visible = false;\\npanel_thank_you.visible = true;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Successful Submission&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                jcr:primaryType="nt:unstructured"/>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

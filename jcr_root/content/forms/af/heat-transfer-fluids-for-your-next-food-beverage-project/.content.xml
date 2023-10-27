@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-02-21T14:09:27.620+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/blank-af"
+        jcr:language="en"
+        jcr:lastModified="{Date}2021-03-24T18:22:20.809+05:30"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="heat-transfer-fluids-for-your-next-food-beverage-project"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:version="1.1"
+            jcr:lastModified="{Date}2023-02-21T14:09:27.595+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            _invokeSubmitActionSync="true"
+            actionType="fd/af/components/guidesubmittype/restendpoint"
+            autoSaveStartExpression="true"
+            autoSaveStrategyType="fd/af/components/actions/autosave/eventbased"
+            disableSwipeGesture="{Boolean}false"
+            enableAsyncSubmission="true"
+            enableFocusOnFirstField="{Boolean}true"
+            enableLayoutLayer="false"
+            enableServerValidation="true"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            redirect="/content/forms/af/thankyou"
+            restEndpointPostUrl="https://dummy.restapiexample.com/api/v1/employees"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/mysite/canvas-3-0"
+            useExistingAF="false">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/step"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <panel
+                        jcr:lastModified="{Date}2023-01-17T12:28:42.065+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="mainPanel"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                            <guidetextdraw
+                                cq:cssClass="guide-1674112630108"
+                                jcr:lastModified="{Date}2023-01-18T11:47:22.141+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>&lt;b>Have a question?&lt;/b>&lt;br>&#xd;&#xa;Fill out the form and someone will contact you as soon as possible.&lt;/p>&#xd;&#xa;"
+                                cssStyle=".guide-1674112630108 .guideTextDraw.guideStaticText{&#xa;color:#333;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="lblHaveQues"
+                                textIsRich="true">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_textdraw
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#333]"/>
+                                </style>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextdraw>
+                            <guidetextbox
+                                jcr:lastModified="{Date}2023-01-18T11:23:34.497+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="First Name *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                maxChars="20"
+                                name="firstName"
+                                textIsRich="[true,true,true]"
+                                validatePictureClause="^[A-Za-z]+$"
+                                validationPatternType="custom">
+                                <fd:rules
+                                    fd:valueCommit="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.mainPanel.textbox1673938830453&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;textbox1673938830453&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;NOT_EQUALS_TO&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:null}}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.mainPanel.textbox1673938830453&quot;\,&quot;displayName&quot;:&quot;First Name *&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section/First Name */&quot;\,&quot;name&quot;:&quot;textbox1673938830453&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel.mainPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:false\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif (this.value !== \\&quot;null\\&quot;) {\\n    this.visible = true;\\n}\\n&quot;\,&quot;eventName&quot;:&quot;Value Commit&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox>
+                            <guidetextbox_180954255
+                                jcr:lastModified="{Date}2023-01-18T11:23:41.520+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Last Name *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                maxChars="20"
+                                name="lastName"
+                                textIsRich="[true,true,true]"
+                                validatePictureClause="^[A-Za-z]+$"
+                                validationPatternType="custom">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_180954255>
+                            <guidetextbox_copy
+                                jcr:lastModified="{Date}2023-01-18T11:25:50.570+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Email *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="email"
+                                textIsRich="[true,true,true]"
+                                validatePictureClause="^[A-Za-z0-9](([a-zA-Z0-9,=\\.!\\-#|\\$%\\^&amp;\\*\\+\\?_`\\{\\}~]+)*)@(?:[0-9a-zA-Z-]+\\.)+[a-zA-Z]{2,9}$"
+                                validationPatternType="custom">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_copy>
+                            <guidecheckbox
+                                cq:cssClass="guide-1674112697996"
+                                jcr:lastModified="{Date}2023-01-18T11:48:29.539+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidecheckbox"
+                                alignment="guideFieldHorizontalAlignment"
+                                cssStyle=".guide-1674112697996 .afCheckBoxItem .guideWidgetLabel label{&#xa;color:#333;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideCheckBox"
+                                hideTitle="true"
+                                name="ckNotification"
+                                options="[0=I would like to receive marketing emails from Dow]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_checkboxlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#333]"/>
+                                </style>
+                            </guidecheckbox>
+                            <guidetextbox_copy_515342672
+                                jcr:lastModified="{Date}2023-01-18T09:57:26.154+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Company Name *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                maxChars="20"
+                                name="companyName"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_copy_515342672>
+                            <guidetextbox_copy_51
+                                jcr:lastModified="{Date}2023-01-18T12:00:55.617+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Company Type *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                maxChars="20"
+                                name="companyType"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_copy_51>
+                            <guidetextbox_1809542
+                                jcr:lastModified="{Date}2023-01-18T11:49:30.191+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Address 1 *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="addressOne"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542>
+                            <guidetextbox_1809542_538390982
+                                jcr:lastModified="{Date}2023-01-18T11:52:23.496+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Address 2"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="addressTwo"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542_538390982>
+                            <guidetextbox_1809542_1752318260
+                                jcr:lastModified="{Date}2023-01-18T11:50:05.044+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="City *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="city"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542_1752318260>
+                            <guidetextbox_1809542_371637045
+                                jcr:lastModified="{Date}2023-01-18T11:50:47.854+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="State or Province *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="state"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542_371637045>
+                            <guidetextbox_copy_1884054166
+                                jcr:lastModified="{Date}2023-01-18T11:52:03.820+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Zip or Postal Code *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="zipOrPostal"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_copy_1884054166>
+                            <guidedropdownlist
+                                jcr:lastModified="{Date}2023-01-18T11:40:52.288+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Country*"
+                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                guideNodeClass="guideDropDownList"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="county"
+                                options="[Please select =-- Please Select --,Afghanistan=Afghanistan,Albania=Albania,Algeria=Algeria,Amer.Virgin Is.=Amer.Virgin Is.,American Samoa=American Samoa,Andorra=Andorra,Angola=Angola,Anguilla=Anguilla,Antarctica=Antarctica,Antigua Barbuda=Antigua Barbuda,Argentina=Argentina,Armenia=Armenia,Aruba=Aruba,Australia=Australia,Austria=Austria,Azerbaijan=Azerbaijan,Bahamas=Bahamas,Bahrain=Bahrain,Bangladesh=Bangladesh,Barbados=Barbados,Belarus=Belarus,Belgium=Belgium,Belize=Belize,Benin=Benin,Bermuda=Bermuda,Bhutan=Bhutan,Bolivia=Bolivia,Bonaire\, Saba=Bonaire\, Saba,Bosnia-Herz.=Bosnia-Herz.,Botswana=Botswana,Bouvet Island=Bouvet Island,Brazil=Brazil,Brit.Ind.Oc.Ter=Brit.Ind.Oc.Ter,Brit.Virgin Is.=Brit.Virgin Is.,Brunei Daruss.=Brunei Daruss.,Bulgaria=Bulgaria,Burkina Faso=Burkina Faso,Burundi=Burundi,C. African Rep.=C. African Rep.,Cambodia=Cambodia,Cameroon=Cameroon,Canada=Canada,Cape Verde=Cape Verde,Cayman Islands=Cayman Islands,Chad=Chad,Chile=Chile,Christmas Islnd=Christmas Islnd,Coconut Islands=Coconut Islands,Colombia=Colombia,Comoros=Comoros,Congo=Congo,Cook Islands=Cook Islands,Costa Rica=Costa Rica,Croatia=Croatia,Curacao=Curacao,Cyprus=Cyprus,Czech Republic=Czech Republic,Denmark=Denmark,Djibouti=Djibouti,Dominica=Dominica,Dominican Republic=Dominican Republic,Ecuador=Ecuador,Egypt=Egypt,El Salvador=El Salvador,Equatorial Guinea=Equatorial Guinea,Eritrea=Eritrea,Estonia=Estonia,Ethiopia=Ethiopia,Falkland Islands=Falkland Islands,Faroe Islands=Faroe Islands,Fiji=Fiji,Finland=Finland,France=France,French Guiana=French Guiana,French Southern Territories=French Southern Territories,Gabon=Gabon,Gambia=Gambia,Georgia=Georgia,Germany=Germany,Ghana=Ghana,Gibraltar=Gibraltar,Greater China=Greater China,Greece=Greece,Greenland=Greenland,Grenada=Grenada,Guadeloupe=Guadeloupe,Guam=Guam,Guatemala=Guatemala,Guernsey=Guernsey,Guinea=Guinea,Guinea-Bissau=Guinea-Bissau,Guyana=Guyana,Haiti=Haiti,Heard/McDonald Isls.=Heard/McDonald Isls.,Honduras=Honduras,Hungary=Hungary,Iceland=Iceland,India=India,Indonesia=Indonesia,Iraq=Iraq,Ireland=Ireland,Isle of Man=Isle of Man,Israel=Israel,Italy=Italy,Ivory Coast=Ivory Coast,Jamaica=Jamaica,Japan=Japan,Jersey=Jersey,Jordan=Jordan,Kazakhstan=Kazakhstan,Kenya=Kenya,Kiribati=Kiribati,Korea (South)=Korea (South),Kuwait=Kuwait,Kyrgyzstan=Kyrgyzstan,Laos=Laos,Latvia=Latvia,Lebanon=Lebanon,Lesotho=Lesotho,Liberia=Liberia,Libya=Libya,Liechtenstein=Liechtenstein,Lithuania=Lithuania,Luxembourg=Luxembourg,Macedonia=Macedonia,Madagascar=Madagascar,Malawi=Malawi,Malaysia=Malaysia,Maldives=Maldives,Mali=Mali,Malta=Malta,Marshall Islands=Marshall Islands,Martinique=Martinique,Mauritania=Mauritania,Mauritius=Mauritius,Mayotte=Mayotte,Mexico=Mexico,Micronesia=Micronesia,Moldova=Moldova,Monaco=Monaco,Mongolia=Mongolia,Montenegro=Montenegro,Montserrat=Montserrat,Morocco=Morocco,Mozambique=Mozambique,Myanmar=Myanmar,Namibia=Namibia,Nauru=Nauru,Nepal=Nepal,Netherlands=Netherlands,Netherlands Antilles=Netherlands Antilles,New Caledonia=New Caledonia,New Zealand=New Zealand,Nicaragua=Nicaragua,Niger=Niger,Nigeria=Nigeria,Niue=Niue,Norfolk Island=Norfolk Island,Northern Mariana Islands=Northern Mariana Islands,Norway=Norway,Oman=Oman,Pakistan=Pakistan,Palau=Palau,Palestinian Territory=Palestinian Territory,Panama=Panama,Papua New Guinea=Papua New Guinea,Paraguay=Paraguay,Peru=Peru,Philippines=Philippines,Pitcairn=Pitcairn,Poland=Poland,Portugal=Portugal,Puerto Rico=Puerto Rico,Qatar=Qatar,Reunion=Reunion,Romania=Romania,Russian Federation=Russian Federation,Rwanda=Rwanda,Saint Kitts and Nevis=Saint Kitts and Nevis,Saint Lucia=Saint Lucia,Samoa=Samoa,San Marino=San Marino,Sao Tome/Principe=Sao Tome/Principe,Saudi Arabia=Saudi Arabia,Senegal=Senegal,Serbia=Serbia,Seychelles=Seychelles,Sierra Leone=Sierra Leone,Singapore=Singapore,Slovak Republic=Slovak Republic,Slovenia=Slovenia,Solomon Islands=Solomon Islands,Somalia=Somalia,South Africa=South Africa,South Georgia and the South Sandwich Islands=South Georgia and the South Sandwich Islands,South Sudan=South Sudan,Spain=Spain,Sri Lanka=Sri Lanka,St. Barthelemy=St. Barthelemy,St. Helena=St. Helena,St. Martin (Sint Maarten)=St. Martin (Sint Maarten),St. Pierre and Miquelon=St. Pierre and Miquelon,St. Vincent and Grenadines=St. Vincent and Grenadines,Suriname=Suriname,Svalbard and Jan Mayen=Svalbard and Jan Mayen,Swaziland=Swaziland,Sweden=Sweden,Switzerland=Switzerland,Tajikistan=Tajikistan,Tanzania=Tanzania,Thailand=Thailand,Timor-Leste=Timor-Leste,Togo=Togo,Tokelau=Tokelau,Tonga=Tonga,Trinidad and Tobago=Trinidad and Tobago,Tunisia=Tunisia,Turkey=Turkey,Turkmenistan=Turkmenistan,Turks/Caicos Isls.=Turks/Caicos Isls.,Tuvalu=Tuvalu,Uganda=Uganda,Ukraine=Ukraine,United Arab Emirates=United Arab Emirates,United Kingdom=United Kingdom,United States=United States,United States Minor Outlying Islands=United States Minor Outlying Islands,Uruguay=Uruguay,Uzbekistan=Uzbekistan,Vanuatu=Vanuatu,Vatican City=Vatican City,Venezuela=Venezuela,Vietnam=Vietnam,Virgin Islands (British)=Virgin Islands (British),Virgin Islands (U.S.)=Virgin Islands (U.S.),Wallis/Futuna Isls.=Wallis/Futuna Isls.,Western Sahara=Western Sahara,Yemen=Yemen,Zambia=Zambia,Zimbabwe=Zimbabwe]"
+                                textIsRich="[true,true]">
+                                <fd:rules jcr:primaryType="nt:unstructured"/>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidedropdownlist>
+                            <guidetextbox_1809542_1734315887
+                                jcr:lastModified="{Date}2023-01-18T11:51:51.871+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Business Phone *"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="businessPhone"
+                                textIsRich="[true,true,true]"
+                                validatePictureClause="text{'('999')' 999-9999}"
+                                validationPatternType="text{'('999')' 999-9999}">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542_1734315887>
+                            <guideradiobutton
+                                cq:cssClass="guide-1674113132994"
+                                jcr:lastModified="{Date}2023-01-19T12:58:39.106+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Estimated size/quantity of current Job (gallons) *"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1674113132994 .afRadioButtonItem .guideWidgetLabel label{&#xa;color:#333;&#xa;font-weight:lighter;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="radiobutton1674022973530"
+                                options="[1-1000 gallons=1-1000 gallons,1001 - 4999 gallons=1001 - 4999 gallons,Over 5\,000 gallons=Over 5\,000 gallons]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_radiobuttonitemlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#333,font-weight:lighter]"/>
+                                </style>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guideradiobutton>
+                            <guidetextbox_copy_18
+                                jcr:lastModified="{Date}2023-01-18T11:54:38.435+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Number of jobs over next 6 months? *"
+                                sling:resourceType="fd/af/components/guidenumericbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideNumericBox"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="numberOfJobs"
+                                textIsRich="[true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_copy_18>
+                            <guideradiobutton_cop
+                                cq:cssClass="guide-1674112753970"
+                                jcr:lastModified="{Date}2023-01-19T12:58:45.542+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Have you purchased glycol from Dow within past 6 months? *"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1674112753970 .afRadioButtonItem .guideWidgetLabel label{&#xa;color:#333;&#xa;font-weight:lighter;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="purchaseGly"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_radiobuttonitemlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#333,font-weight:lighter]"/>
+                                </style>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guideradiobutton_cop>
+                            <guidetextbox_1809542_515191766
+                                jcr:lastModified="{Date}2023-01-18T11:58:12.263+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="If yes, who did you purchase from?"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="yesPurchased"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542_515191766>
+                            <guideradiobutton_cop_2068121671
+                                cq:cssClass="guide-1674112786483"
+                                jcr:lastModified="{Date}2023-01-19T12:58:55.957+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Did a Dow-authorized distributor send you this e-mail? *"
+                                sling:resourceType="fd/af/components/guideradiobutton"
+                                alignment="guideFieldVerticalAlignment"
+                                cssStyle=".guide-1674112786483 .afRadioButtonItem .guideWidgetLabel label{&#xa;color:#333;&#xa;font-weight:lighter;&#xa;&#xa;}&#xa;.guide-1674112786483 .afRadioButtonItem{&#xa;line-height:2;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideRadioButton"
+                                mandatory="true"
+                                mandatoryMessage="This value is required."
+                                name="authDistributer"
+                                options="[Yes=Yes,No=No]"
+                                textIsRich="[true,true]">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_radiobuttonitemlabel
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#333,font-weight:lighter]"/>
+                                    <af_radiobuttonitem
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[line-height:2]"/>
+                                </style>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guideradiobutton_cop_2068121671>
+                            <guidetextbox_1809542_1845604005
+                                jcr:lastModified="{Date}2023-01-18T11:58:56.579+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="If yes, which distributor?"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                guideNodeClass="guideTextBox"
+                                name="whichDistributer"
+                                textIsRich="[true,true,true]">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextbox_1809542_1845604005>
+                            <guidetextdraw_1525121557
+                                cq:cssClass="guide-1674112800489"
+                                jcr:lastModified="{Date}2023-01-18T11:59:22.535+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>Our&amp;nbsp;&lt;a href=&quot;https://legal.dow.com/en-us/privacy-statement/customer-privacy-notice&quot; data-clickable-id=&quot;clickable-3&quot;>Customer Privacy Notice — Marketing &amp;amp; Sales&lt;/a>&amp;nbsp;provides detailed information about the personal data we collect and process, the purposes for which we use the data, the legal bases we rely on, the third parties with whom we share the data, how long we keep the data, etc. For more information, please refer to our&amp;nbsp;&lt;a href=&quot;https://legal.dow.com/en-us/privacy-statement&quot; data-clickable-id=&quot;clickable-4&quot;>Privacy Statement&lt;/a>.&lt;/p>&#xd;&#xa;"
+                                cssStyle=".guide-1674112800489 .guideTextDraw.guideStaticText{&#xa;color:#333;&#xa;font-weight:lighter;&#xa;font-family:Arial;&#xa;font-size:85%;&#xa;&#xa;}&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw_15251215571674023351748"
+                                textIsRich="true">
+                                <style jcr:primaryType="nt:unstructured">
+                                    <af_textdraw
+                                        jcr:primaryType="nt:unstructured"
+                                        default_x0023_default="[color:#333,font-weight:lighter,font-family:Arial,font-size:85%]"
+                                        default_x0023_default_x0023_ui="[fontFamilyFieldContainer:{&quot;itemList&quot;:[{&quot;id&quot;:&quot;fontFamily.1674112936138&quot;\,&quot;fontFamily&quot;:&quot;Arial&quot;\,&quot;fontName&quot;:&quot;Arial&quot;}]}]"/>
+                                </style>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="9"/>
+                                </cq:responsive>
+                            </guidetextdraw_1525121557>
+                            <guidebutton
+                                jcr:lastModified="{Date}2023-01-18T09:56:41.747+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Submit"
+                                sling:resourceType="fd/af/components/guidebutton"
+                                dorExclusion="true"
+                                guideNodeClass="guideButton"
+                                name="submit"
+                                textIsRich="[true,true]"
+                                type="Button">
+                                <fd:rules
+                                    fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="8"/>
+                                </cq:responsive>
+                            </guidebutton>
+                        </items>
+                    </panel>
+                </items>
+                <toolbar
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Toolbar"
+                    sling:resourceType="fd/af/components/toolbar"
+                    css="\0"
+                    guideNodeClass="guideToolbar"
+                    name="toolbar">
+                    <items jcr:primaryType="nt:unstructured"/>
+                    <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/layouts/toolbar/defaultToolbarLayout"/>
+                </toolbar>
+            </rootPanel>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="undefined"
+                    delegateTo="undefined"
+                    email="undefined"
+                    emailSource="undefined"
+                    phone="undefined"
+                    phoneSource="undefined"
+                    recipientRole="undefined"
+                    securityOption="undefined"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <autoSaveInfo jcr:primaryType="nt:unstructured"/>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>

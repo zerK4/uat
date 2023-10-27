@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/forms"
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:isDelivered="{Boolean}true"
+        cq:lastModified="{Date}2023-10-24T16:01:26.286Z"
+        cq:lastModifiedBy="alin.costin@brandwidth.com"
+        cq:lastReplicated="{Date}2023-10-18T15:08:59.832Z"
+        cq:lastReplicated_publish="{Date}2023-10-18T15:08:59.832Z"
+        cq:lastReplicated_scene7="{Date}2023-10-18T15:08:59.832Z"
+        cq:lastReplicatedBy="alin.costin@brandwidth.com"
+        cq:lastReplicatedBy_publish="alin.costin@brandwidth.com"
+        cq:lastReplicatedBy_scene7="alin.costin@brandwidth.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/conf/forms/settings/wcm/templates/mock-template"
+        fd:translationIds="\{&quot;jcr:title&quot;:&quot;jcr:title##4748&quot;}"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Technical Inquiry - Application Troubleshooting"
+        jcr:uuid="497e060c-f23c-4980-9765-d644cb713206"
+        sling:resourceType="fd/af/components/page2/aftemplatedpage">
+        <guideContainer
+            fd:translationIds="\{&quot;thankYouMessage&quot;:&quot;guideContainer##thankYouMessage##530&quot;}"
+            fd:version="1.1"
+            jcr:lastModified="{Date}2023-09-04T12:51:15.079Z"
+            jcr:lastModifiedBy="alin.costin@brandwidth.com"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="fd/af/components/guideContainer"
+            _invokeSubmitActionSync="true"
+            actionType="fd/afaddon/components/actions/fdm"
+            autoSaveStartExpression="true"
+            autoSaveStrategyType="fd/af/components/actions/autosave/eventbased"
+            clientLibRef="forms-rules-functions"
+            disableSwipeGesture="{Boolean}false"
+            dorType="none"
+            enableAsyncSubmission="true"
+            enableFocusOnFirstField="{Boolean}true"
+            enableLayoutLayer="false"
+            enableServerValidation="true"
+            fdmEntityPath="/formFields"
+            guideCss="guideContainer"
+            guideNodeClass="guideContainerNode"
+            name="guide1"
+            schemaRef="/content/dam/formsanddocuments-fdm/contact-us-data-model"
+            schemaType="formdatamodel"
+            textIsRich="true"
+            thankYouMessage="Thank you for submitting the form."
+            thankYouOption="page"
+            themeRef="/content/dam/formsanddocuments-themes/dow-theme"
+            useExistingAF="false">
+            <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="fd/af/layouts/defaultGuideLayout"
+                mobileLayout="fd/af/layouts/mobile/step"
+                toolbarPosition="Bottom"/>
+            <rootPanel
+                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##jcr:title##99&quot;}"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Root Panel"
+                sling:resourceType="fd/af/components/rootPanel"
+                dorExcludeDescription="true"
+                dorExcludeTitle="true"
+                guideNodeClass="rootPanelNode"
+                name="guideRootPanel"
+                panelSetType="Navigable">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                    nonNavigable="{Boolean}true"
+                    toolbarPosition="Bottom"/>
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                    <panel_224288961
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##jcr:title##5400&quot;}"
+                        jcr:lastModified="{Date}2023-09-01T14:40:44.122+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        guideNodeClass="guidePanel"
+                        name="panel_form"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                            <guidetextdraw
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextdraw##_value##3977&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:38:04.352+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="fd/af/components/guidetextdraw"
+                                _value="&lt;p>All fields are mandatory unless marked (optional)&lt;/p>&#xd;&#xa;"
+                                guideNodeClass="guideTextDraw"
+                                name="textdraw-all-fields"
+                                textIsRich="true"/>
+                            <panel_183586405_copy
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##jcr:title##5284&quot;}"
+                                jcr:lastModified="{Date}2023-09-08T13:32:31.166+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="panel_product-info"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                                    <afformtitle
+                                        fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##afformtitle##_value##5531&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##afformtitle##jcr:title##7927&quot;}"
+                                        jcr:lastModified="{Date}2023-09-08T13:32:40.344+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Adaptive Form Title"
+                                        sling:resourceType="fd/af/components/afFormTitle"
+                                        _value="&lt;p>Product Information&lt;/p>&#xd;&#xa;"
+                                        css="guideformtitle container fieldTitle"
+                                        guideNodeClass="guideTextDraw"
+                                        name="formTitle-product"
+                                        textIsRich="true"/>
+                                    <guidetextbox
+                                        fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##guidetextbox##mandatoryMessage##7529&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##guidetextbox##jcr:title##6793&quot;}"
+                                        jcr:lastModified="{Date}2023-09-21T15:56:49.398+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Please enter a product name"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/genericFields/Product1_sProduct"
+                                        guideNodeClass="guideTextBox"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="textbox-product"
+                                        textIsRich="[true,true,true]"/>
+                                    <guideradiobutton_cop
+                                        fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##guideradiobutton_cop##mandatoryMessage##5819&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##guideradiobutton_cop##jcr:title##2529&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_183586405_copy##items##guideradiobutton_cop##options##6714&quot;}"
+                                        jcr:lastModified="{Date}2023-10-18T15:06:06.719Z"
+                                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Is this inquiry for a Dow Silicones Product?"
+                                        sling:resourceType="fd/af/components/guideradiobutton"
+                                        alignment="guideFieldHorizontalAlignment"
+                                        bindRef="/formFields/genericFields/sGroup"
+                                        guideNodeClass="guideRadioButton"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="radiobutton-dow-silicons"
+                                        options="[TCS=Yes,CIG=No]"
+                                        textIsRich="[true,true]"/>
+                                </items>
+                            </panel_183586405_copy>
+                            <afformtitle_10474416
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_10474416##_value##2816&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_10474416##jcr:title##1615&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:41:17.071+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p>Market Information&lt;/p>"
+                                css="guideformtitle container fieldTitle"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle-market"
+                                textIsRich="true"/>
+                            <panel_copy
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##jcr:title##6234&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:38:36.215+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                guideNodeClass="guidePanel"
+                                name="panel-market"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
+                                    <guidedropdownlist
+                                        fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist##mandatoryMessage##3890&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist##jcr:title##268&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist##placeholderText##3053&quot;}"
+                                        jcr:lastModified="{Date}2023-09-21T15:56:58.042+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Market"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="/formFields/genericFields/lead_market"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatory="true"
+                                        mandatoryMessage="This field is required"
+                                        name="market"
+                                        placeholderText="Filled entry"
+                                        textIsRich="[true,true]">
+                                        <fd:rules
+                                            fd:calc="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;CALC_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;VALUE_FIELD&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form.panel-market.market&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;market&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;ExtractFromUrlOrCookie&quot;\,&quot;displayName&quot;:&quot;ExtractFromUrlOrCookie&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[{&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;cookieName&quot;\,&quot;description&quot;:&quot;name of the cookie&quot;}\,{&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;param&quot;\,&quot;description&quot;:&quot;name of the query string parameter&quot;}]\,&quot;impl&quot;:&quot;$0.apply(this\,[$1\,$2])&quot;}\,&quot;params&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;market&quot;}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;market&quot;}}]}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nExtractFromUrlOrCookie.apply(this\,[\\&quot;market\\&quot;\,\\&quot;market\\&quot;]);\\n\\n&quot;\,&quot;eventName&quot;:&quot;Calculate&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            fd:options="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OPTIONS_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form.panel-market.market&quot;\,&quot;type&quot;:&quot;DROPDOWN|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;market&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;OPTIONS_LIST&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_OPTIONS_EXPRESSION&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{}\,&quot;outputModel&quot;:{&quot;displayValue&quot;:&quot;name&quot;\,&quot;saveValue&quot;:&quot;code&quot;}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/market-dm&quot;\,&quot;operationTitle&quot;:&quot;GET /en-us/.lead.score.market.json&quot;\,&quot;operationName&quot;:&quot;GET /en-us/.lead.score.market.json&quot;\,&quot;runValidation&quot;:false}}}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/market-dm\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;GET /en-us/.lead.score.market.json\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;GET /en-us/.lead.score.market.json\\&quot;\,\\n    \\&quot;runValidation\\&quot;: false\\n};\\nvar inputs = {\\n};\\nvar outputs={\\n    savedValue:'code'\,\\n    displayedValue:'name'\,\\n    field:this\\n};\\nguidelib.dataIntegrationUtils.setOptionsFromService(operationInfo\, inputs\, outputs);\\n&quot;\,&quot;eventName&quot;:&quot;Options&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidedropdownlist>
+                                    <guidetextbox_copy
+                                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidetextbox_copy##jcr:title##6770&quot;}"
+                                        jcr:lastModified="{Date}2023-09-25T11:22:30.670+01:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Explain your intended Market-Application"
+                                        sling:resourceType="fd/af/components/guidetextbox"
+                                        autofillFieldKeyword="name"
+                                        bindRef="/formFields/contactFields/other-market-application"
+                                        guideNodeClass="guideTextBox"
+                                        name="otherComments"
+                                        textIsRich="[true,true,true]"
+                                        visible="{Boolean}false"/>
+                                    <guidedropdownlist_1220425774
+                                        fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist_1220425774##mandatoryMessage##3544&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist_1220425774##jcr:title##3667&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist_1220425774##placeholderText##877&quot;}"
+                                        jcr:lastModified="{Date}2023-09-21T15:57:05.635+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Submarket"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="/formFields/genericFields/lead_sub_market"
+                                        guideNodeClass="guideDropDownList"
+                                        mandatoryMessage="This field is required"
+                                        name="submarket"
+                                        placeholderText="Filled Entry"
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:calc="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;CALC_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;VALUE_FIELD&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form.panel-market.submarket&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;submarket&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;ExtractFromUrlOrCookie&quot;\,&quot;displayName&quot;:&quot;ExtractFromUrlOrCookie&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[{&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;cookieName&quot;\,&quot;description&quot;:&quot;name of the cookie&quot;}\,{&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;param&quot;\,&quot;description&quot;:&quot;name of the query string parameter&quot;}]\,&quot;impl&quot;:&quot;$0.apply(this\,[$1\,$2])&quot;}\,&quot;params&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;submarket&quot;}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;submarket&quot;}}]}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nExtractFromUrlOrCookie.apply(this\,[\\&quot;submarket\\&quot;\,\\&quot;submarket\\&quot;]);\\n\\n&quot;\,&quot;eventName&quot;:&quot;Calculate&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            fd:options="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OPTIONS_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form.panel-market.submarket&quot;\,&quot;type&quot;:&quot;DROPDOWN|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;submarket&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;OPTIONS_LIST&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_OPTIONS_EXPRESSION&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{&quot;market&quot;:{&quot;title&quot;:&quot;market&quot;\,&quot;description&quot;:&quot;Filter parameter to refine the submarkets list.&quot;\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE|BINARY&quot;\,&quot;readOnly&quot;:false\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.market&quot;\,&quot;displayName&quot;:&quot;Market&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Market/&quot;\,&quot;name&quot;:&quot;market&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}}}\,&quot;outputModel&quot;:{&quot;displayValue&quot;:&quot;submarkets.name&quot;\,&quot;saveValue&quot;:&quot;submarkets.code&quot;}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/market-dm&quot;\,&quot;operationTitle&quot;:&quot;GET /en-us/.lead.score.submarket.json&quot;\,&quot;operationName&quot;:&quot;GET /en-us/.lead.score.submarket.json&quot;\,&quot;runValidation&quot;:false}}}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.market&quot;\,&quot;displayName&quot;:&quot;Market&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Market/&quot;\,&quot;name&quot;:&quot;market&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_NOT_EMPTY&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:null}}]}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif ( ([null\,\\&quot;\\&quot;].indexOf(market.value) === -1) ) {\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/market-dm\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;GET /en-us/.lead.score.submarket.json\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;GET /en-us/.lead.score.submarket.json\\&quot;\,\\n    \\&quot;runValidation\\&quot;: false\\n};\\nvar inputs = {\\n    \\&quot;market\\&quot; : market\\n};\\nvar outputs={\\n    savedValue:'submarkets.code'\,\\n    displayedValue:'submarkets.name'\,\\n    field:this\\n};\\nguidelib.dataIntegrationUtils.setOptionsFromService(operationInfo\, inputs\, outputs);\\n}\\n\\n&quot;\,&quot;eventName&quot;:&quot;Options&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidedropdownlist_1220425774>
+                                    <guidedropdownlist_1957009797
+                                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist_1957009797##jcr:title##1322&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy##items##guidedropdownlist_1957009797##placeholderText##1892&quot;}"
+                                        jcr:lastModified="{Date}2023-08-30T14:57:13.942+03:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Application"
+                                        sling:resourceType="fd/af/components/guidedropdownlist"
+                                        bindRef="/formFields/genericFields/application"
+                                        guideNodeClass="guideDropDownList"
+                                        name="application"
+                                        placeholderText="Please select Application..."
+                                        textIsRich="[true,true]"
+                                        visible="{Boolean}false">
+                                        <fd:rules
+                                            fd:calc="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;CALC_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;VALUE_FIELD&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form.panel-market.application&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;application&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;FUNCTION_CALL&quot;\,&quot;functionName&quot;:{&quot;id&quot;:&quot;ExtractFromUrlOrCookie&quot;\,&quot;displayName&quot;:&quot;ExtractFromUrlOrCookie&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;isDuplicate&quot;:false\,&quot;displayPath&quot;:&quot;&quot;\,&quot;args&quot;:[{&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;cookieName&quot;\,&quot;description&quot;:&quot;name of the cookie&quot;}\,{&quot;type&quot;:&quot;STRING&quot;\,&quot;name&quot;:&quot;param&quot;\,&quot;description&quot;:&quot;name of the query string parameter&quot;}]\,&quot;impl&quot;:&quot;$0.apply(this\,[$1\,$2])&quot;}\,&quot;params&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;application&quot;}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;STRING_LITERAL&quot;\,&quot;value&quot;:&quot;application&quot;}}]}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:null}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nExtractFromUrlOrCookie.apply(this\,[\\&quot;application\\&quot;\,\\&quot;application\\&quot;]);\\n\\n&quot;\,&quot;eventName&quot;:&quot;Calculate&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            fd:options="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;OPTIONS_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form.panel-market.application&quot;\,&quot;type&quot;:&quot;DROPDOWN|FIELD|AFCOMPONENT|STRING&quot;\,&quot;name&quot;:&quot;application&quot;}}\,{&quot;nodeName&quot;:&quot;to&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;OPTIONS_LIST&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;WSDL_OPTIONS_EXPRESSION&quot;\,&quot;value&quot;:{&quot;inputModel&quot;:{&quot;submarket&quot;:{&quot;title&quot;:&quot;submarket&quot;\,&quot;description&quot;:&quot;Filter parameter to refine the applications list.&quot;\,&quot;type&quot;:&quot;STRING|NUMBER|BOOLEAN|DATE|BINARY&quot;\,&quot;readOnly&quot;:false\,&quot;nodeName&quot;:&quot;PARAMETER&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.submarket&quot;\,&quot;displayName&quot;:&quot;Submarket&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Submarket/&quot;\,&quot;name&quot;:&quot;submarket&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}}}\,&quot;outputModel&quot;:{&quot;displayValue&quot;:&quot;applications.name&quot;\,&quot;saveValue&quot;:&quot;applications.code&quot;}\,&quot;wsdlInfo&quot;:{&quot;formDataModelId&quot;:&quot;/content/dam/formsanddocuments-fdm/market-dm&quot;\,&quot;operationTitle&quot;:&quot;GET /en-us/.lead.score.application.json&quot;\,&quot;operationName&quot;:&quot;GET /en-us/.lead.score.application.json&quot;\,&quot;runValidation&quot;:false}}}}\,{&quot;nodeName&quot;:&quot;When&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;CONDITIONORALWAYS&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPARISON_EXPRESSION&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.submarket&quot;\,&quot;displayName&quot;:&quot;Submarket&quot;\,&quot;type&quot;:&quot;STRING&quot;\,&quot;displayPath&quot;:&quot;FORM/guideRootPanel/Submarket/&quot;\,&quot;name&quot;:&quot;submarket&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}}\,{&quot;nodeName&quot;:&quot;OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;IS_NOT_EMPTY&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;EXPRESSION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:null}}]}}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nif ( ([null\,\\&quot;\\&quot;].indexOf(submarket.value) === -1) ) {\\nvar operationInfo = {\\n    \\&quot;formDataModelId\\&quot;: \\&quot;/content/dam/formsanddocuments-fdm/market-dm\\&quot;\,\\n    \\&quot;operationTitle\\&quot;: \\&quot;GET /en-us/.lead.score.application.json\\&quot;\,\\n    \\&quot;operationName\\&quot;: \\&quot;GET /en-us/.lead.score.application.json\\&quot;\,\\n    \\&quot;runValidation\\&quot;: false\\n};\\nvar inputs = {\\n    \\&quot;submarket\\&quot; : submarket\\n};\\nvar outputs={\\n    savedValue:'applications.code'\,\\n    displayedValue:'applications.name'\,\\n    field:this\\n};\\nguidelib.dataIntegrationUtils.setOptionsFromService(operationInfo\, inputs\, outputs);\\n}\\n\\n&quot;\,&quot;eventName&quot;:&quot;Options&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </guidedropdownlist_1957009797>
+                                </items>
+                            </panel_copy>
+                            <afformtitle_15033429
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_15033429##_value##4863&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_15033429##jcr:title##908&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:44:43.464+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p>Application/Equipment Information&lt;/p>&#xd;&#xa;"
+                                css="guideformtitle container fieldTitle"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle-application"
+                                textIsRich="true"/>
+                            <guidetextbox_1226874
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1226874##mandatoryMessage##5864&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1226874##jcr:title##3966&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T16:43:49.216+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="End-product application/market"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/formFields/genericFields/end_product_application_market"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This field is required"
+                                name="textbox-end-product"
+                                textIsRich="[true,true,true]"/>
+                            <afformtitle_69706165
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_69706165##_value##7729&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_69706165##jcr:title##4168&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:41:50.320+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p>Problem Scope&lt;/p>&#xd;&#xa;"
+                                css="guideformtitle container fieldTitle"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle-problem"
+                                textIsRich="true"/>
+                            <guidetextbox_9812306
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_9812306##mandatoryMessage##884&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_9812306##jcr:title##1503&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T16:44:40.266+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="What is the problem you are trying to solve?"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/formFields/genericFields/problem_trying_to_solve"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This field is required"
+                                name="textbox_-problem"
+                                textIsRich="[true,true,true]"/>
+                            <panel_copy_1327120534
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy_1327120534##jcr:title##6524&quot;}"
+                                jcr:lastModified="{Date}2023-10-12T11:04:35.408Z"
+                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                fragRef="/content/dam/formsanddocuments/fragments/dropdown_input_component"
+                                guideNodeClass="guidePanel"
+                                name="panel-annual-volume"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"/>
+                            </panel_copy_1327120534>
+                            <guideseparator
+                                jcr:lastModified="{Date}2023-08-16T12:06:23.944+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                guideNodeClass="guideSeparator"
+                                name="separator1692176784042"
+                                thickness="1"/>
+                            <afformtitle_15943691
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_15943691##_value##9885&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_15943691##jcr:title##9921&quot;}"
+                                jcr:lastModified="{Date}2023-08-30T14:51:46.133+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p>Personal Information&lt;/p>&#xd;&#xa;"
+                                css="guideformtitle container fieldTitle"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle"
+                                textIsRich="true"/>
+                            <guidetextbox_1764868
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1764868##mandatoryMessage##4498&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1764868##jcr:title##3115&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T16:45:05.015+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="First Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/formFields/contactFields/sFName"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This field is required"
+                                name="textbox-first-name"
+                                textIsRich="[true,true,true]"/>
+                            <guidetextbox_1835554
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1835554##mandatoryMessage##760&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1835554##jcr:title##9726&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T16:45:19.780+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Last Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/formFields/contactFields/sLName"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This field is required"
+                                name="textbox-last-name"
+                                textIsRich="[true,true,true]"/>
+                            <guideemail
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guideemail##mandatoryMessage##1161&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guideemail##jcr:title##8217&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T16:45:35.312+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Email"
+                                sling:resourceType="fd/af/components/guideemail"
+                                autofillFieldKeyword="email"
+                                bindRef="/formFields/contactFields/sEmail"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This field is required"
+                                name="email"
+                                textIsRich="[true,true]"
+                                validatePictureClause="^(([^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+(\\.[^&lt;>()\\[\\]\\\\.,;:\\s@&quot;]+)*)|(&quot;.+&quot;))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
+                                validationPatternType="custom"/>
+                            <guidetelephone_copy_
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetelephone_copy_##jcr:title##7058&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetelephone_copy_##placeholderText##4528&quot;,&quot;validatePictureClauseMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetelephone_copy_##validatePictureClauseMessage##225&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T17:35:34.441+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Phone Number (optional)"
+                                sling:resourceType="fd/af/components/guidetelephone"
+                                autofillFieldKeyword="tel"
+                                bindRef="/formFields/contactFields/sPhone"
+                                guideNodeClass="guideTelephone"
+                                name="telephone"
+                                placeholderText="+447333333333"
+                                textIsRich="[true,true]"
+                                validatePictureClause="^[+][0-9]{0,14}$"
+                                validatePictureClauseMessage="Incorrect format: Please begin with +"
+                                validationPatternType="^[+][0-9]{0,14}$"/>
+                            <guidedropdownlist_33
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidedropdownlist_33##jcr:title##7399&quot;,&quot;options&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidedropdownlist_33##options##8723&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidedropdownlist_33##placeholderText##2605&quot;}"
+                                jcr:lastModified="{Date}2023-09-19T19:43:04.328+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Contact Preference (optional)"
+                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                bindRef="/formFields/genericFields/contact_preference"
+                                css="half-width-for-contact"
+                                guideNodeClass="guideDropDownList"
+                                name="dropdownlist-contact-pref"
+                                options="[Email,Phone]"
+                                placeholderText=" "
+                                textIsRich="[true,true]"/>
+                            <afformtitle_71327489
+                                fd:translationIds="\{&quot;_value&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_71327489##_value##6544&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##afformtitle_71327489##jcr:title##239&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:42:35.708+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Adaptive Form Title"
+                                sling:resourceType="fd/af/components/afFormTitle"
+                                _value="&lt;p>Company Information&lt;/p>"
+                                css="guideformtitle container fieldTitle"
+                                guideNodeClass="guideTextDraw"
+                                name="formTitle-company"
+                                textIsRich="true"/>
+                            <guidetextbox_1364004
+                                fd:translationIds="\{&quot;mandatoryMessage&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1364004##mandatoryMessage##3573&quot;,&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_1364004##jcr:title##5025&quot;}"
+                                jcr:lastModified="{Date}2023-09-21T16:45:48.510+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Company Name"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                autofillFieldKeyword="name"
+                                bindRef="/formFields/contactFields/sCompany"
+                                guideNodeClass="guideTextBox"
+                                mandatory="true"
+                                mandatoryMessage="This field is required"
+                                name="textbox-company"
+                                textIsRich="[true,true,true]"/>
+                            <panel_copy_1134697529
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_copy_1134697529##jcr:title##3678&quot;}"
+                                jcr:lastModified="{Date}2023-09-27T13:56:26.866+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                fragRef="/content/dam/formsanddocuments/fragments/countries_dropdown_fragment"
+                                guideNodeClass="guidePanel"
+                                name="panel-country"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items jcr:primaryType="nt:unstructured"/>
+                            </panel_copy_1134697529>
+                            <guidedropdownlist_13
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidedropdownlist_13##jcr:title##3340&quot;,&quot;placeholderText&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidedropdownlist_13##placeholderText##6058&quot;}"
+                                jcr:lastModified="{Date}2023-10-06T11:54:37.794Z"
+                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Job Function/Role (optional)"
+                                sling:resourceType="fd/af/components/guidedropdownlist"
+                                bindRef="/formFields/contactFields/job_title"
+                                guideNodeClass="guideDropDownList"
+                                name="job-review"
+                                options="[Administration,Architect / Designer,Business Development,Consultant,Customer Service,Design,Student / Professor,Engineering,Facility Management,Financial / Accounting,Human Resources,Information Systems,Legal,Management / Executive,Manufacturing / Operations,Marketing,Marketing &amp; Business Development,Other,Project Management,Public Relations / Communication,Purchasing,Purchasing / Supply chain,Quality,Regulatory / EH&amp;S,Research &amp; Development,Sales,Supply Chain / Logistics,Sustainability,Technical / Application Support]"
+                                placeholderText=" "
+                                textIsRich="[true,true]"/>
+                            <panel_245963411_copy
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_245963411_copy##jcr:title##2616&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:40:11.416+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                fragRef="/content/dam/formsanddocuments/fragments/panel_hidden_fields"
+                                guideNodeClass="guidePanel"
+                                name="panel-hidden-fields"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false"
+                                visible="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items jcr:primaryType="nt:unstructured"/>
+                            </panel_245963411_copy>
+                            <guidetextbox_copy
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##guidetextbox_copy##jcr:title##6305&quot;}"
+                                jcr:lastModified="{Date}2023-09-06T14:43:51.534+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Inquiry Code"
+                                sling:resourceType="fd/af/components/guidetextbox"
+                                _value="TECH"
+                                autofillFieldKeyword="name"
+                                bindRef="/formFields/genericFields/inquiryCode"
+                                guideNodeClass="guideTextBox"
+                                name="textbox-inquiry-code"
+                                textIsRich="[true,true,true]"
+                                visible="{Boolean}false"/>
+                            <panel_13527007
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##panel_13527007##jcr:title##4995&quot;}"
+                                jcr:lastModified="{Date}2023-09-27T13:56:34.217+01:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Section"
+                                sling:resourceType="fd/af/components/panel"
+                                fragRef="/content/dam/formsanddocuments/fragments/panel_attach_doc"
+                                guideNodeClass="guidePanel"
+                                name="panel-attach-doc"
+                                textIsRich="true"
+                                validateOnStepCompletion="{Boolean}false">
+                                <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                                    columns="1"
+                                    nonNavigable="{Boolean}true"
+                                    toolbarPosition="Bottom"/>
+                                <items jcr:primaryType="nt:unstructured"/>
+                            </panel_13527007>
+                            <submit
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##submit##jcr:title##6002&quot;}"
+                                jcr:lastModified="{Date}2023-09-01T14:40:25.704+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="SUBMIT INQUIRY"
+                                sling:resourceType="fd/af/components/actions/submit"
+                                dorExclusion="true"
+                                guideNodeClass="guideButton"
+                                name="submit"
+                                textIsRich="[true,true]"
+                                type="submit">
+                                <fd:rules
+                                    fd:click="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;XX&quot;\,&quot;type&quot;:&quot;BUTTON&quot;\,&quot;name&quot;:&quot;XX&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is clicked&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SUBMIT_FORM&quot;\,&quot;items&quot;:[]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.submit();\\n\\n&quot;\,&quot;eventName&quot;:&quot;Click&quot;}]"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </submit>
+                            <nextitemnav_copy
+                                fd:targetVersion="1.1"
+                                fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel_224288961##items##nextitemnav_copy##jcr:title##5904&quot;}"
+                                jcr:lastModified="{Date}2023-09-04T11:56:54.269Z"
+                                jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Review"
+                                sling:resourceType="fd/af/components/actions/nextitemnav"
+                                dorExclusion="true"
+                                guideNodeClass="guideButton"
+                                name="reviewButton"
+                                textIsRich="[true,true]"
+                                type="moveNext"/>
+                            <guideseparator_17964
+                                jcr:lastModified="{Date}2023-09-04T12:32:55.641+03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Separator"
+                                sling:resourceType="fd/af/components/guideseparator"
+                                css="fullWidthSeparator"
+                                guideNodeClass="guideSeparator"
+                                name="separator_17964353331693819958915"
+                                thickness="1"/>
+                        </items>
+                    </panel_224288961>
+                    <panel
+                        fd:translationIds="\{&quot;jcr:title&quot;:&quot;guideContainer##rootPanel##items##panel##jcr:title##3812&quot;}"
+                        jcr:lastModified="{Date}2023-09-27T13:56:42.388+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section"
+                        sling:resourceType="fd/af/components/panel"
+                        css="ThankyouPanel functionalSummaryComp"
+                        fragRef="/content/dam/formsanddocuments/thank-you/panel_thank_you_technical"
+                        guideNodeClass="guidePanel"
+                        name="panel-thank-you"
+                        textIsRich="true"
+                        validateOnStepCompletion="{Boolean}false"
+                        visible="{Boolean}false">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="fd/af/layouts/gridFluidLayout2"
+                            columns="1"
+                            nonNavigable="{Boolean}true"
+                            toolbarPosition="Bottom"/>
+                        <items jcr:primaryType="nt:unstructured"/>
+                    </panel>
+                    <guidecaptcha
+                        jcr:created="{Date}2023-10-05T11:51:17.580Z"
+                        jcr:createdBy="alin.costin@brandwidth.com"
+                        jcr:lastModified="{Date}2023-10-05T11:51:25.180Z"
+                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="CAPTCHA"
+                        sling:resourceType="fd/af/components/guideCaptcha"
+                        captchaService="recaptcha"
+                        errorMessage="We are unable to process your request at this time. Please try again after sometime or contact the administrator for further assistance."
+                        guideNodeClass="guideCaptcha"
+                        mandatory="true"
+                        mandatoryMessage="Provide CAPTCHA to proceed."
+                        name="captcha1696506677851"
+                        rcCloudServicePath="recapcha-v2"
+                        rcSize="invisible"
+                        rcTheme="light"
+                        rcType="image"
+                        validateExpMessage="Invalid CAPTCHA. Try again."/>
+                    <summarize_data
+                        jcr:lastModified="{Date}2023-09-04T12:03:47.990Z"
+                        jcr:lastModifiedBy="alin.costin@brandwidth.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dow-platform/components/forms/summarize-data"/>
+                </items>
+            </rootPanel>
+            <signerInfo
+                jcr:primaryType="nt:unstructured"
+                firstSignerFormFiller="false"
+                workflowType="SEQUENTIAL">
+                <signer0
+                    jcr:primaryType="nt:unstructured"
+                    countryCode="undefined"
+                    countryCodeSource="undefined"
+                    delegateTo="undefined"
+                    email="undefined"
+                    emailSource="undefined"
+                    phone="undefined"
+                    phoneSource="undefined"
+                    recipientRole="undefined"
+                    securityOption="undefined"
+                    signerTitle="Signer One"/>
+            </signerInfo>
+            <fd:rules
+                fd:submitSuccess="[{&quot;nodeName&quot;:&quot;ROOT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_SCRIPTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;EVENT_CONDITION&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;COMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide&quot;\,&quot;type&quot;:&quot;FORM&quot;\,&quot;name&quot;:&quot;FORM&quot;}}\,{&quot;nodeName&quot;:&quot;EVENT_AND_COMPARISON_OPERATOR&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;is submitted successfully&quot;\,&quot;value&quot;:null}}\,{&quot;nodeName&quot;:&quot;PRIMITIVE_EXPRESSION&quot;\,&quot;choice&quot;:null}]}\,&quot;nested&quot;:false}\,{&quot;nodeName&quot;:&quot;Then&quot;\,&quot;value&quot;:null}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENTS&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;SHOW_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel-thank-you&quot;\,&quot;displayName&quot;:&quot;Section&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section/&quot;\,&quot;name&quot;:&quot;panel-thank-you&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}\,{&quot;nodeName&quot;:&quot;BLOCK_STATEMENT&quot;\,&quot;choice&quot;:{&quot;nodeName&quot;:&quot;HIDE_STATEMENT&quot;\,&quot;items&quot;:[{&quot;nodeName&quot;:&quot;AFCOMPONENT&quot;\,&quot;value&quot;:{&quot;id&quot;:&quot;guide.guideRootPanel.panel_form&quot;\,&quot;displayName&quot;:&quot;Section&quot;\,&quot;type&quot;:&quot;AFCOMPONENT&quot;\,&quot;isDuplicate&quot;:true\,&quot;displayPath&quot;:&quot;FORM/Root Panel/Section/&quot;\,&quot;name&quot;:&quot;panel_form&quot;\,&quot;parent&quot;:&quot;guide.guideRootPanel&quot;}}]}}]}]}}]\,&quot;isValid&quot;:true\,&quot;enabled&quot;:true\,&quot;version&quot;:1\,&quot;script&quot;:&quot;/**\\n\\n * This is a machine-generated code for the rule.\\n * If you modify it in the code editor\, you will not be able to view and edit the rule in the visual editor.\\n */\\n\\nguideBridge.resolveNode(\\&quot;panel-thank-you\\&quot;).visible = true;\\npanel_form.visible = false;\\n\\n&quot;\,&quot;eventName&quot;:&quot;Successful Submission&quot;\,&quot;ruleType&quot;:&quot;&quot;\,&quot;description&quot;:&quot;&quot;}]"
+                jcr:primaryType="nt:unstructured"/>
+            <autoSaveInfo jcr:primaryType="nt:unstructured"/>
+        </guideContainer>
+    </jcr:content>
+</jcr:root>
